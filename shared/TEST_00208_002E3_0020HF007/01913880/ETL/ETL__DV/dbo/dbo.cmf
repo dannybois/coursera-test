@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="dbo" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo" type="CONTAINER" subtype="SCHEMA" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1525333700390</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="isDataCaseSensitive" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594185582971</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1525333700390</attribute>
+  <attribute name="selectionState" type="INTEGER">1</attribute>
+  <attribute name="userDeletedSet" type="SET">
+    <item type="NAME_TYPE_PAIR">
+      <name>V_DAILY_WELL_PRODUCTION_TEST_THAIJV</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_MASTER_AFE_MAPPING_TEST</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>ALL_DATASET_PROJECT_JARVIS</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_MEJ_ABANDONMENT_COST_DESCRIPTION</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_MEJ_MASTER_FACILITIES</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>Production_Arthit_RMP</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_MASTER_SUPPLEMENT_MAPPING</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_AFE_OPERATING_EXPENSE_PIVOT</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_MASTER_AFE_MAPPING_WITH_EXPENDITURE</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>CONFIG_REPORT_PERIOD_CF</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_DAILY_PRODUCTION_THAIJV</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_AFE_OPERATING_EXPENSE</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_AFE_CASH_EXPENSE</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>MAPPING_USER_KPI_ALL</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>ALL_DATASET_CONSO_JARVIS</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>Config_RLS_User_KPI</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>V_PFJ_AFE_CASH_EXPENSE_PIVOT</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>MAPPING_USER_KPI</name>
+      <type>2</type>
+    </item>
+  </attribute>
+</metadata>

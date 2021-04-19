@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="CONFIG_Data_Level" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/CONFIG_Data_Level" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="Source_System" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Source_Table" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Source_Area" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Source_Area_Group1" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Source_Area_Group2" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Data_Level" nullable="false">
+      <datatype name="decimal" extendedName="decimal(6,2)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="6" maxFractionalDigits="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Remark" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Active_Flag" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1538556033655</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1538556033655</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1538556033655</attribute>
+</metadata>

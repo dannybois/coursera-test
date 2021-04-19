@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="HIT_USER" path="/shared/TEST 8.3 HF007/01913880/PROSOURCE-SDSPROD/HIT_USER" type="CONTAINER" subtype="SCHEMA" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1521100127111</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1522813994527</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1521100127111</attribute>
+  <attribute name="userDeletedSet" type="SET">
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PERFORATION</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PFJ_DAILY_DRILLING</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PVT_OIL</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_WELL_COST</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_DEVIATION_SURVEY</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_FLUID_CONTACT</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PFJ_RIG_MOVE</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_RESERVOIR_CHART</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_WELL_MAPPING</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_NETPAY</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_MXTEMP_MXPRESS</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_RFT</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PFJ_WELL_SUMMARY</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_CASING</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PVT_GAS</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_PFJ_CHECK_MISSING_DDR</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_DST</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>HIT_EXP_REPORT</name>
+      <type>2</type>
+    </item>
+  </attribute>
+</metadata>

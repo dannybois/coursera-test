@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="VIEW_SYSTEM_USERS" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/VIEW_SYSTEM_USERS" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="USERS" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1528428192037</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530083386424</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1528428192037</attribute>
+</metadata>

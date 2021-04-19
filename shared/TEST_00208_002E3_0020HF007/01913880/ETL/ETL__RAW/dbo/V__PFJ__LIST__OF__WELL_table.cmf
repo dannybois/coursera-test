@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_LIST_OF_WELL" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/dbo/V_PFJ_LIST_OF_WELL" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="MONTH_YEAR" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RIG" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PLATFORM" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WELL_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ACTIVITY" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RAT" nullable="true">
+      <datatype name="float" extendedName="float" subType="DATASOURCE_TYPE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1556508996086</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1556508996086</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_sc</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1556508996086</attribute>
+</metadata>

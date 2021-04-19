@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_CASH_EXPENSE" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_PFJ_CASH_EXPENSE" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="CONCESSION_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMMON_ASSET_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_GRP_ID" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_GRP_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(1000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="JIB_GROUPING" nullable="true">
+      <datatype name="varchar" extendedName="varchar(101)" subType="DATASOURCE_TYPE" type="STRING" maxLength="101"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Description" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MONTH_YEAR" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1546995725425</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250173</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_up</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1546995725425</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250173</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1546995725425</attribute>
+</metadata>

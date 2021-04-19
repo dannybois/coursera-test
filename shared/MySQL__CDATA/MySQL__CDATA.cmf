@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="MySQL_CDATA" path="/shared/MySQL_CDATA" type="DATA_SOURCE" subtype="RELATIONAL" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="allowuservariables" type="BOOLEAN">false</attribute>
+  <attribute name="alternateSecurityProperties" type="STRING">oauthaccesstoken</attribute>
+  <attribute name="authscheme" type="STRING">Password</attribute>
+  <attribute name="commitOnFetchDone" type="BOOLEAN">true</attribute>
+  <attribute name="connPoolMaxSize" type="INTEGER">100</attribute>
+  <attribute name="connPoolMinSize" type="INTEGER">0</attribute>
+  <attribute name="connPoolTimeout" type="INTEGER">30</attribute>
+  <attribute name="connStaleTimeout" type="INTEGER">60</attribute>
+  <attribute name="creationDate" type="LONG">1616183823280</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="database" type="STRING">northbay</attribute>
+  <attribute name="driverName" type="STRING">MySQL</attribute>
+  <attribute name="ds.conn_checkout_timeout" type="INTEGER">45</attribute>
+  <attribute name="execTimeout" type="INTEGER">0</attribute>
+  <attribute name="firewallport" type="INTEGER">0</attribute>
+  <attribute name="firewalltype" type="STRING">NONE</attribute>
+  <attribute name="initiateoauth" type="STRING">OFF</attribute>
+  <attribute name="integratedsecurity" type="BOOLEAN">false</attribute>
+  <attribute name="isEnabled" type="BOOLEAN">true</attribute>
+  <attribute name="isPassThrough" type="STRING">Disabled</attribute>
+  <attribute name="jdbcds.comparisons_case_insensitive" type="BOOLEAN">false</attribute>
+  <attribute name="jdbcds.ignore_case_sensitivity_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.ignore_trailing_spaces_mismatch" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.no_support_query_timeout" type="BOOLEAN">true</attribute>
+  <attribute name="jdbcds.trailing_spaces_included_in_comparison" type="BOOLEAN">true</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1616183823280</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="location" type="STRING">%APPDATA%\CData\MySQL Data Provider\Schema</attribute>
+  <attribute name="maxrows" type="INTEGER">-1</attribute>
+  <attribute name="name" type="STRING">MySQL_CDATA</attribute>
+  <attribute name="ntlmversion" type="STRING">1</attribute>
+  <attribute name="oauthsettingslocation" type="STRING">%APPDATA%\CData\MySQL Data Provider\OAuthSettings.txt</attribute>
+  <attribute name="password" type="PASSWORD_STRING">ENC(ajVfAudo0HyO+IwmKgXpKw==$gzVe2c4D4y0DuS7q0EsFmw==)</attribute>
+  <attribute name="persistPassword" type="BOOLEAN">true</attribute>
+  <attribute name="port" type="STRING">3306</attribute>
+  <attribute name="proxyauthscheme" type="STRING">BASIC</attribute>
+  <attribute name="proxyautodetect" type="BOOLEAN">true</attribute>
+  <attribute name="proxyport" type="INTEGER">80</attribute>
+  <attribute name="proxyssltype" type="STRING">AUTO</attribute>
+  <attribute name="readonly" type="BOOLEAN">false</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1616183823280</attribute>
+  <attribute name="server" type="STRING">172.21.246.70</attribute>
+  <attribute name="sshauthmode" type="STRING">Password</attribute>
+  <attribute name="sshclientcertsubject" type="STRING">*</attribute>
+  <attribute name="sshclientcerttype" type="STRING">USER</attribute>
+  <attribute name="sshport" type="STRING">22</attribute>
+  <attribute name="sslclientcertsubject" type="STRING">*</attribute>
+  <attribute name="sslclientcerttype" type="STRING">USER</attribute>
+  <attribute name="timeout" type="INTEGER">30</attribute>
+  <attribute name="txnIsolationLevel" type="STRING">Read Committed</attribute>
+  <attribute name="type" type="STRING">RELATIONAL</attribute>
+  <attribute name="user" type="STRING">qa1</attribute>
+  <attribute name="usessh" type="BOOLEAN">false</attribute>
+  <attribute name="usessl" type="BOOLEAN">false</attribute>
+  <attribute name="zerodatestonull" type="BOOLEAN">true</attribute>
+</metadata>

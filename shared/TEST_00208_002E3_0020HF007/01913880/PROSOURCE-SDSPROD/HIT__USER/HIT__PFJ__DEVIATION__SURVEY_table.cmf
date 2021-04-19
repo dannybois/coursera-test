@@ -1,0 +1,212 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="HIT_PFJ_DEVIATION_SURVEY" path="/shared/TEST 8.3 HF007/01913880/PROSOURCE-SDSPROD/HIT_USER/HIT_PFJ_DEVIATION_SURVEY" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ASSET_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PLATFORM" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UBHI" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_SHORT_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SURVEY_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RANK_NEW" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(72)" subType="DATASOURCE_TYPE" type="STRING" maxLength="72"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RANK_GROUP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(74)" subType="DATASOURCE_TYPE" type="STRING" maxLength="74"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MD_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INCLINATION" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AZIMUTH" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORIGINAL_TVD_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ELEVATION_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ELEVATION_SOURCE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(13)" subType="DATASOURCE_TYPE" type="STRING" maxLength="13"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TVD_SS_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="VERTICAL_SECTION_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DELTA_N_S_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DELTA_E_W_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="N_S_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="E_W_FT" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DOGLEG_RATE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BUILD_RATE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TURN_RATE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TFO" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POINT_START" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(30)" subType="DATASOURCE_TYPE" type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TARGET" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(47)" subType="DATASOURCE_TYPE" type="STRING" maxLength="47"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="REMARKS" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(2012)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2012"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INSERT_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INSERT_USER" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATE_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATE_USER" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1530519861740</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530519861740</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1530519861740</attribute>
+</metadata>

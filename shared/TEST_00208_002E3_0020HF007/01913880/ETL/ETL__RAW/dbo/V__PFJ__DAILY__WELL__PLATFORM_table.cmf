@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_DAILY_WELL_PLATFORM" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/dbo/V_PFJ_DAILY_WELL_PLATFORM" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="REPORT_DATE" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ASSET" nullable="true">
+      <datatype name="varchar" extendedName="varchar(5)" subType="DATASOURCE_TYPE" type="STRING" maxLength="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD" nullable="false">
+      <datatype name="varchar" extendedName="varchar(14)" subType="DATASOURCE_TYPE" type="STRING" maxLength="14"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PLATFORM" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CPP" nullable="true">
+      <datatype name="varchar" extendedName="varchar(6)" subType="DATASOURCE_TYPE" type="STRING" maxLength="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GAS" nullable="true">
+      <datatype name="numeric" extendedName="numeric(19,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONDY" nullable="true">
+      <datatype name="numeric" extendedName="numeric(19,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OIL" nullable="true">
+      <datatype name="numeric" extendedName="numeric(19,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LIFT GAS" nullable="true">
+      <datatype name="numeric" extendedName="numeric(19,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WATER" nullable="true">
+      <datatype name="numeric" extendedName="numeric(19,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="19" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO2" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1581479141609</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1581479141609</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_sc</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1581479141609</attribute>
+</metadata>

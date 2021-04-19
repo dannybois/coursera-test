@@ -1,0 +1,230 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PDP_SPH_DAILY_BILLING_REPORT" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/dbo/V_PDP_SPH_DAILY_BILLING_REPORT" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="run_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="gas_date" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="flow_com_tagNo" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="meter_runNo" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cumm_total_energy" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cumm_total_std_volume" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cumm_total_sat_std_vol" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="cumm_total_mass" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="day_total_energy" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="day_total_std_volume" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="day_total_sat_std_vol" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="day_total_mass" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_sat_ghv" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_press" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_diff_press" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_temp" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_s_g" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_w_c" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avg_f_rate" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_tot_sat_std_vol" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_tot_energy_total" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_avg_sat_ghv" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_avg_sat_press" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_avg_sat_temp" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_avg_sat_s_g" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_avg_sat_sup_comp" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_avg_sat_run_time" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_pres" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_dp" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_w_c" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_fwv" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="avghr_actual" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_mass" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_std_vol" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="sumhr_gc_update" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1597284231213</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">80144</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1597284231213</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">80144</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_sc</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1597284231213</attribute>
+</metadata>

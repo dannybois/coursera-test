@@ -1,0 +1,188 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="HIT_RESERVOIR_CHART" path="/shared/TEST 8.3 HF007/01913880/PROSOURCE-SDSPROD/HIT_USER/HIT_RESERVOIR_CHART" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ASSET_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UBHI" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="STANDARD_LAYER_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PRIMARY_RESERVOIR_PRODUCT" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GROSS_RESERVOIR_TOP_TMD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GROSS_RESERVOIR_BASE_TMD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GROSS_RESERVOIR_TOP_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GROSS_RESERVOIR_BASE_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_TOP_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_BASE_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_SAND" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_SAND_TOP" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_SAND_BASE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_THICKNESS_LAYER" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_POROSITY_AVG" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_VSH_AVG" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_RESERVOIR_SW" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_TOP_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_BASE_MSL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_THICKNESS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_THICKNESS_LAYER" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_VSH_AVG" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_POROSITY_AVG" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_PAY_SW_AVG" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE_GROUP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(24)" subType="DATASOURCE_TYPE" type="STRING" maxLength="24"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="REMARKS" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(2000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1530519861756</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530519861756</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1530519861756</attribute>
+</metadata>

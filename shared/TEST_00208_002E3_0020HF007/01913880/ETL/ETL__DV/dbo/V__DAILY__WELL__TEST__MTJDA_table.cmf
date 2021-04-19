@@ -1,0 +1,116 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_DAILY_WELL_TEST_MTJDA" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_DAILY_WELL_TEST_MTJDA" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Prod_Date" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Well_Name" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Well_No" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Start_Time" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="End_Time" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Duration" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Gas_Rate_MMscfd" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_Rate_bopd" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Water_Rate_bopd" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Choke_Size_%" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO2" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FTHP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FTHT_decC" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,5)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="5" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UWI" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="run_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="File_Name" nullable="false">
+      <datatype name="varchar" extendedName="varchar(1)" subType="DATASOURCE_TYPE" type="STRING" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1542795215297</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250173</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_up</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1542795215297</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250173</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1542795215297</attribute>
+</metadata>

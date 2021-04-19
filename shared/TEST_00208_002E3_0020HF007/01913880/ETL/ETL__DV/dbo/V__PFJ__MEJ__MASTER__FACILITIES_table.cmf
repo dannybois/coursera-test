@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_MEJ_MASTER_FACILITIES" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_PFJ_MEJ_MASTER_FACILITIES" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="project_code" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Project_name" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Asset" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="afe" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="afe_description" nullable="true">
+      <datatype name="varchar" extendedName="varchar(2000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="whp_facilities" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="afe_type" nullable="true">
+      <datatype name="varchar" extendedName="varchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1588834811541</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">2330324</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1588834811541</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">2330324</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mfecdev</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1588834811541</attribute>
+</metadata>

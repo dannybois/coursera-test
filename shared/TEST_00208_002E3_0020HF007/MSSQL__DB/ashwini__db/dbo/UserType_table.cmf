@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="UserType" path="/shared/TEST 8.3 HF007/MSSQL_DB/ashwini_db/dbo/UserType" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="Id" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Code" nullable="true">
+      <datatype name="varchar" extendedName="varchar(32)" subType="DATASOURCE_TYPE" type="STRING" maxLength="32"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Name" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(128)" subType="DATASOURCE_TYPE" type="STRING" maxLength="128"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="description" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(512)" subType="DATASOURCE_TYPE" type="STRING" maxLength="512"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="PK__UserType__3214EC0761578178" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="Id" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1607442987530</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1607442987530</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1607442987530</attribute>
+</metadata>

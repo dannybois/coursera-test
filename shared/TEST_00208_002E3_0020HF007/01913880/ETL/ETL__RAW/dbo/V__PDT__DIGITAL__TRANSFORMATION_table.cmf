@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PDT_DIGITAL_TRANSFORMATION" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/dbo/V_PDT_DIGITAL_TRANSFORMATION" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="Data_Load" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fg" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="dt_ot" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="initiative" nullable="true">
+      <datatype name="varchar" extendedName="varchar(500)" subType="DATASOURCE_TYPE" type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="driver_div" nullable="true">
+      <datatype name="varchar" extendedName="varchar(200)" subType="DATASOURCE_TYPE" type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="driver_dev" nullable="true">
+      <datatype name="varchar" extendedName="varchar(200)" subType="DATASOURCE_TYPE" type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="support_div" nullable="true">
+      <datatype name="varchar" extendedName="varchar(200)" subType="DATASOURCE_TYPE" type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="support_dev" nullable="true">
+      <datatype name="varchar" extendedName="varchar(200)" subType="DATASOURCE_TYPE" type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="team" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="value_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DT_Type" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="data_as_of" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1571392504142</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">2330324</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594185582971</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">2330324</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1571392504142</attribute>
+</metadata>

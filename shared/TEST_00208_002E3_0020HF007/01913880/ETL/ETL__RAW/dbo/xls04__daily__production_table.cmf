@@ -1,0 +1,307 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="xls04_daily_production" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/dbo/xls04_daily_production" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="run_id" nullable="false">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="seq" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Amount_Required_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Sale_Gas_Delivered_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yet_Main_Yet_D_Gas_Total_Production_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_Gas_Production_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_Yet_D_Total_Water_Production_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Energy_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Heat_Value_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_to_FSO_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_in_Storage_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_fuel_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_vent_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_fuel_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_flare_and_vent_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_fuel_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_vent_gas_str" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Amount_Required" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Sale_Gas_Delivered" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yet_Main_Yet_D_Gas_Total_Production" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_Gas_Production" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_Yet_D_Total_Water_Production" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Energy" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Heat_Value" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_to_FSO" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_in_Storage" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_fuel_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_vent_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_fuel_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_flare_and_vent_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_fuel_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_vent_gas" nullable="true">
+      <datatype name="numeric" extendedName="numeric(20,10)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="20" minFractionalDigits="10" maxFractionalDigits="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Amount_Required_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Sale_Gas_Delivered_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yet_Main_Yet_D_Gas_Total_Production_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_Gas_Production_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_Yet_D_Total_Water_Production_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Energy_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Heat_Value_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_to_FSO_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Condensate_in_Storage_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_fuel_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="POC_vent_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_fuel_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_Main_flare_and_vent_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_fuel_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Yetagun_D_vent_gas_uom" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="PK_xls04_daily_production" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="run_id" sortOrder="ASCENDING"/>
+      <indexColumn name="seq" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1544683238764</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1594185582971</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1544683238764</attribute>
+</metadata>

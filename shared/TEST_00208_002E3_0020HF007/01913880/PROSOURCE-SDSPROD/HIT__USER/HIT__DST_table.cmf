@@ -1,0 +1,362 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="HIT_DST" path="/shared/TEST 8.3 HF007/01913880/PROSOURCE-SDSPROD/HIT_USER/HIT_DST" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="ASSET_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_NAME" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UBHI" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DST_NO" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TEST_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FORMATION" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RESERVOIR" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TST_PRESSURE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SUB_TYPE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="NET_THICKNESS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PHI" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="VSH" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SW" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TOP_INTERVAL_MD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BASE_INTERVAL_MD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="START_DEPTH_TVD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BASE_DEPTH_TVD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TOP_TVD_SS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOTTOM_TVD_SS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TUBING_CHOKE_SIZE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TUBING_CHOKE_SIZE_UOM" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(15)" subType="DATASOURCE_TYPE" type="STRING" maxLength="15"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AVG_GAS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AVG_OIL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONDENSATE_RATE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AVG_WATER" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CGR" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WGR" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SURFACE_PRESSURE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AVERAGE_BH_PRESSURE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SEPERATOR_PRESSURE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SUREFACE_TEMP" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SEPERATOR_TEMP" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AVERAGE_BH_TEMPERATURE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="K_MD" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="KH" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="KH_ORG_UNIT" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SKIN" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="D" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RADIUS_INVESTIGATED" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SG_GAS" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SG_OIL" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SG_WATER" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONDENSATE_API" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CO2" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="H2S" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="N2" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BSW" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="HEATING_VALUE" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SALINITY" nullable="true">
+      <datatype name="DOUBLE" extendedName="NUMBER" subType="DATASOURCE_TYPE" type="FLOAT"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(64)" subType="DATASOURCE_TYPE" type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE_GROUP" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(24)" subType="DATASOURCE_TYPE" type="STRING" maxLength="24"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="REMARKS" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(2000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INSERT_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INSERT_USER" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATE_DATE" nullable="true">
+      <datatype name="DATE" extendedName="DATE" subType="DATASOURCE_TYPE" type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATE_USER" nullable="true">
+      <datatype name="VARCHAR2" extendedName="VARCHAR2(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1530519861724</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530519861724</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1530519861724</attribute>
+</metadata>

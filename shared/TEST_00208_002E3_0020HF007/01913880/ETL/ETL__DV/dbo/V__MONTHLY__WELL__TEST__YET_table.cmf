@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_MONTHLY_WELL_TEST_YET" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_MONTHLY_WELL_TEST_YET" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="DATE" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WELL_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(50)" subType="DATASOURCE_TYPE" type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GAS" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,20)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="20" maxFractionalDigits="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CONDY" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,20)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="20" maxFractionalDigits="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WATER" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,20)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="20" maxFractionalDigits="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="THP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,20)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="20" maxFractionalDigits="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="run_id" nullable="false">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1545738049073</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250173</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_up</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1545738049073</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250173</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1545738049073</attribute>
+</metadata>

@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="ETL_DV" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV" type="CONTAINER" subtype="CATALOG" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1525333700327</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530083386424</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1525333700327</attribute>
+  <attribute name="selectionState" type="INTEGER">1</attribute>
+</metadata>

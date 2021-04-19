@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_MONTHLY_WELL_TEST_VN16" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_MONTHLY_WELL_TEST_VN16" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PRODUCTION_DATE" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PLATFORM" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WELL_NAME" nullable="true">
+      <datatype name="varchar" extendedName="varchar(24)" subType="DATASOURCE_TYPE" type="STRING" maxLength="24"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ONLINE_TIME" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OIL" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GAS" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WATER" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="THP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BHP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="GAS_LIFT_RATE" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="run_id" nullable="true">
+      <datatype name="varchar" extendedName="varchar(20)" subType="DATASOURCE_TYPE" type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="month_year" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1545304115078</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250173</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_up</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1545304115078</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250173</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1545304115078</attribute>
+</metadata>

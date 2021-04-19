@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="sp_MSget_repl_commands" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_RAW/sys/sp_MSget_repl_commands" type="PROCEDURE" subtype="DATABASE_PROCEDURE" changeToken="0">
+  <parameters>
+    <parameter name="@RETURN_VALUE" direction="RETURN" nullable="false">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@agent_id" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@last_xact_seqno" direction="IN" nullable="true">
+      <datatype name="varbinary" extendedName="varbinary(16)" subType="DATASOURCE_TYPE" type="BINARY" maxLength="16"/>
+    </parameter>
+    <parameter name="@get_count" direction="IN" nullable="true">
+      <datatype name="tinyint" extendedName="tinyint" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-32768" maxValue="32767"/>
+    </parameter>
+    <parameter name="@compatibility_level" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@subdb_version" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+    <parameter name="@read_query_size" direction="IN" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+    </parameter>
+  </parameters>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1572495006095</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">2330324</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1572495006095</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">2330324</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mfecdev</attribute>
+  <attribute name="orgName" type="STRING">sp_MSget_repl_commands;1</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1572495006095</attribute>
+</metadata>

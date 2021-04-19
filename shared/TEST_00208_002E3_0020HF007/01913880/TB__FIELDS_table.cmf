@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="TB_FIELDS" path="/shared/TEST 8.3 HF007/01913880/TB_FIELDS" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="FIELD_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_CODE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BLOCK" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD_NAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD_FULL_NAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/TEST 8.3 HF007/01913880/ETL/ETL_NORM/dbo/TB_FIELDS" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="FIELD_ID" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PROJECT_CODE" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="BLOCK">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="FIELD_NAME" nullable="false">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="FIELD_FULL_NAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="FIELD_TYPE">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    TB_FIELDS.FIELD_ID, 
+    TB_FIELDS.PROJECT_CODE, 
+    TB_FIELDS.BLOCK, 
+    TB_FIELDS.FIELD_NAME, 
+    TB_FIELDS.FIELD_FULL_NAME, 
+    TB_FIELDS.FIELD_TYPE
+FROM      
+    /shared/&quot;TEST 8.3 HF007&quot;/&quot;01913880&quot;/ETL/ETL_NORM/dbo/TB_FIELDS TB_FIELDS</attribute>
+  <attribute name="creationDate" type="LONG">1525663832686</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1530083386424</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAEQUQYBAAkAVABCAF8ARgBJAEUATABEAFMGAgAJAFQAQgBfAEYASQBFAEwARABTAwv/////Awr/////Awz/////CxEABwAGAHMAaABhAHIAZQBkAA4AVABFAFMAVAAgADgALgAzACAASABGADAAMAA3AAgAMAAxADkAMQAzADgAOAAwAAMARQBUAEwACABFAFQATABfAE4ATwBSAE0AAwBkAGIAbwAJAFQAQgBfAEYASQBFAEwARABT//8DBQAAAAAIAhAxBgH//wECAQEGAAEDAAEEAAEFAAMHAAAAAAcJAAAAAQAAAAAJCgAAAAYQQQYBAAgARgBJAEUATABEAF8ASQBEBgIAAAYD//8GBP//Awr/////CAwQGQYCAAMAaQBuAHQGAwADAGkAbgB0AysAAAAPAxIAAAEMBAf/////gAAAAAQGAAAAAH///////wMLAAAAAP//EEEGAQAMAFAAUgBPAEoARQBDAFQAXwBDAE8ARABFBgIAAAYD//8GBP//Awr/////CAwQGQYCAAMAaQBuAHQGAwADAGkAbgB0AysAAAAPAxIAAAEMBAf/////gAAAAAQGAAAAAH///////wMLAAAAAP//EEEGAQAFAEIATABPAEMASwYCAAAGA///BgT//wMK/////wgMEBsGAgAHAHYAYQByAGMAaABhAHIGAwAMAHYAYQByAGMAaABhAHIAKAAxADAAMAApAysAAAAPAxIAAAEOBAQAAAAAAAAAZAETAf//AwsAAAAA//8QQQYBAAoARgBJAEUATABEAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAHAHYAYQByAGMAaABhAHIGAwAMAHYAYQByAGMAaABhAHIAKAAxADAAMAApAysAAAAPAxIAAAEOBAQAAAAAAAAAZAETAf//AwsAAAAA//8QQQYBAA8ARgBJAEUATABEAF8ARgBVAEwATABfAE4AQQBNAEUGAgAABgP//wYE//8DCv////8IDBAbBgIABwB2AGEAcgBjAGgAYQByBgMADAB2AGEAcgBjAGgAYQByACgAMQAwADAAKQMrAAAADwMSAAABDgQEAAAAAAAAAGQBEwH//wMLAAAAAP//EEEGAQAKAEYASQBFAEwARABfAFQAWQBQAEUGAgAABgP//wYE//8DCv////8IDBAbBgIABwB2AGEAcgBjAGgAYQByBgMACwB2AGEAcgBjAGgAYQByACgANQAwACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAAyARMB//8DCwAAAAD/////CQYAAAABEIIDCgAAAL8DCwAAAS8DDAAAAMgDDQAAAIL//wgDEHEDAQAAAAsDAgAAADIJAwAAAiYQdAMGAAAAAP//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAB//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAL//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAA///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAE//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAX//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv///////w==</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1525663832686</attribute>
+</metadata>

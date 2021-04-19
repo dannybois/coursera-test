@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_MASTER_AFE_MAPPING_WITH_EXPENDITURE" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_PFJ_MASTER_AFE_MAPPING_WITH_EXPENDITURE" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="WHP" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Project" nullable="true">
+      <datatype name="varchar" extendedName="varchar(8000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="8000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Master_AFE" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Master_Description" nullable="true">
+      <datatype name="varchar" extendedName="varchar(200)" subType="DATASOURCE_TYPE" type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_Number" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_A9_to_Asset" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(4000)" subType="DATASOURCE_TYPE" type="STRING" maxLength="4000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_Description" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_Source" nullable="true">
+      <datatype name="varchar" extendedName="varchar(19)" subType="DATASOURCE_TYPE" type="STRING" maxLength="19"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Total_Amount" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MONTH_YEAR" nullable="true">
+      <datatype name="date" extendedName="date" subType="DATASOURCE_TYPE" type="DATE"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="JIB_CAPEX" nullable="true">
+      <datatype name="numeric" extendedName="numeric(18,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="18" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Abandonment_Cost" nullable="true">
+      <datatype name="float" extendedName="float" subType="DATASOURCE_TYPE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MEJ_Cost" nullable="true">
+      <datatype name="float" extendedName="float" subType="DATASOURCE_TYPE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1562227035032</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">2330324</attribute>
+  <attribute name="creatorUserName" type="STRING">mfecdev</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1562227035032</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">2330324</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mfecdev</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1562227035032</attribute>
+</metadata>

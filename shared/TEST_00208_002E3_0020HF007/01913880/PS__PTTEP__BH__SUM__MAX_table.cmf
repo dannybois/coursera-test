@@ -1,0 +1,609 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="PS_PTTEP_BH_SUM_MAX" path="/shared/TEST 8.3 HF007/01913880/PS_PTTEP_BH_SUM_MAX" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PROJECT_CODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_NAME" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INTEREST_PERCENT" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_STATUS" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_LONGITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_LATITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_COORD_SYSTEM" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_ORIGINAL_X" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_ORIGINAL_Y" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_ORIGINAL_CRS_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AREA" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_LOC" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FIELD_CODE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BLOCK_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UWI" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FINDER_UWI" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WELL_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OPERATOR" nullable="true">
+      <datatype type="STRING" maxLength="128"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORIGINAL_TOP_X" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORIGINAL_TOP_Y" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORIGINAL_BASE_X" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ORIGINAL_BASE_Y" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="X_Y_DATA_SOURCE" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WELL_COORD_SYSTEM_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UBHI" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_SHORT_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_TYPE" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_SHAPE" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_CURRENT_CLASS" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_STATUS" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SPUD_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COMPLETION_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TD_REACHED_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="RIG_RELEASE_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ELEVATION" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ELEVATION_REF" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="WATER_DEPTH" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DRILLER_MD" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DRILLER_TVD" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOGGER_MD" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="LOGGER_TVD" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DRILLER_PB_TD" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FORMATION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PLATFORM" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TOP_LONGITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="TOP_LATITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BASE_LONGITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BASE_LATITUDE" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PROJECT_CATEGORY" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="COUNTRY_NAME" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SLOT_NUMBER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DATA_SOURCE" nullable="true">
+      <datatype type="STRING" maxLength="64"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="REMARKS" nullable="true">
+      <datatype type="STRING" maxLength="2000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="INSERT_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="UPDATE_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="BOREHOLE_ALIAS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/TEST 8.3 HF007/01913880/PROSOURCE-SDSPROD/HIT_USER/HIT_PTTEP_BH_SUM_MAX" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PROJECT_NAME">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="INTEREST_PERCENT">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_STATUS">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="PROJECT_LONGITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_LATITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_COORD_SYSTEM">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="PROJECT_ORIGINAL_X">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_ORIGINAL_Y">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_ORIGINAL_CRS_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="AREA">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="PROJECT_LOC">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="FIELD_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="FIELD_CODE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="BLOCK_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="UWI" nullable="false">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="FINDER_UWI">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="WELL_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="OPERATOR">
+        <datatype type="STRING" maxLength="128"/>
+      </element>
+      <element name="ORIGINAL_TOP_X">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="ORIGINAL_TOP_Y">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="ORIGINAL_BASE_X">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="ORIGINAL_BASE_Y">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="X_Y_DATA_SOURCE">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="WELL_COORD_SYSTEM_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="UBHI" nullable="false">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="BOREHOLE_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="BOREHOLE_SHORT_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="BOREHOLE_TYPE">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="BOREHOLE_SHAPE">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="BOREHOLE_CURRENT_CLASS">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="BOREHOLE_STATUS">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="SPUD_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="COMPLETION_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="TD_REACHED_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="RIG_RELEASE_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="ELEVATION">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="ELEVATION_REF">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="WATER_DEPTH">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="DRILLER_MD">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="DRILLER_TVD">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="LOGGER_MD">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="LOGGER_TVD">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="DRILLER_PB_TD">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="FORMATION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="PLATFORM">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="TOP_LONGITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="TOP_LATITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="BASE_LONGITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="BASE_LATITUDE">
+        <datatype type="FLOAT"/>
+      </element>
+      <element name="PROJECT_CODE">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="PROJECT_CATEGORY">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="COUNTRY_NAME">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="SLOT_NUMBER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="DATA_SOURCE">
+        <datatype type="STRING" maxLength="64"/>
+      </element>
+      <element name="REMARKS">
+        <datatype type="STRING" maxLength="2000"/>
+      </element>
+      <element name="INSERT_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="UPDATE_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="BOREHOLE_ALIAS">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    CAST(HIT_PTTEP_BH_SUM_MAX.PROJECT_CODE AS VARCHAR(10)) PROJECT_CODE, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.INTEREST_PERCENT, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_STATUS, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_LONGITUDE, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_LATITUDE, 
+    CAST(HIT_PTTEP_BH_SUM_MAX.PROJECT_COORD_SYSTEM AS VARCHAR(10)) PROJECT_COORD_SYSTEM, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_ORIGINAL_X, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_ORIGINAL_Y, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_ORIGINAL_CRS_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.AREA, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_LOC, 
+    HIT_PTTEP_BH_SUM_MAX.FIELD_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.FIELD_CODE, 
+    HIT_PTTEP_BH_SUM_MAX.BLOCK_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.UWI, 
+    HIT_PTTEP_BH_SUM_MAX.FINDER_UWI, 
+    HIT_PTTEP_BH_SUM_MAX.WELL_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.OPERATOR, 
+    HIT_PTTEP_BH_SUM_MAX.ORIGINAL_TOP_X, 
+    HIT_PTTEP_BH_SUM_MAX.ORIGINAL_TOP_Y, 
+    HIT_PTTEP_BH_SUM_MAX.ORIGINAL_BASE_X, 
+    HIT_PTTEP_BH_SUM_MAX.ORIGINAL_BASE_Y, 
+    HIT_PTTEP_BH_SUM_MAX.X_Y_DATA_SOURCE, 
+    HIT_PTTEP_BH_SUM_MAX.WELL_COORD_SYSTEM_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.UBHI, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_SHORT_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_TYPE, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_SHAPE, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_CURRENT_CLASS, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_STATUS, 
+    HIT_PTTEP_BH_SUM_MAX.SPUD_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.COMPLETION_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.TD_REACHED_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.RIG_RELEASE_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.ELEVATION, 
+    HIT_PTTEP_BH_SUM_MAX.ELEVATION_REF, 
+    HIT_PTTEP_BH_SUM_MAX.WATER_DEPTH, 
+    HIT_PTTEP_BH_SUM_MAX.DRILLER_MD, 
+    HIT_PTTEP_BH_SUM_MAX.DRILLER_TVD, 
+    HIT_PTTEP_BH_SUM_MAX.LOGGER_MD, 
+    HIT_PTTEP_BH_SUM_MAX.LOGGER_TVD, 
+    HIT_PTTEP_BH_SUM_MAX.DRILLER_PB_TD, 
+    HIT_PTTEP_BH_SUM_MAX.FORMATION, 
+    HIT_PTTEP_BH_SUM_MAX.PLATFORM, 
+    HIT_PTTEP_BH_SUM_MAX.TOP_LONGITUDE, 
+    HIT_PTTEP_BH_SUM_MAX.TOP_LATITUDE, 
+    HIT_PTTEP_BH_SUM_MAX.BASE_LONGITUDE, 
+    HIT_PTTEP_BH_SUM_MAX.BASE_LATITUDE, 
+    HIT_PTTEP_BH_SUM_MAX.PROJECT_CATEGORY, 
+    HIT_PTTEP_BH_SUM_MAX.COUNTRY_NAME, 
+    HIT_PTTEP_BH_SUM_MAX.SLOT_NUMBER, 
+    HIT_PTTEP_BH_SUM_MAX.DATA_SOURCE, 
+    HIT_PTTEP_BH_SUM_MAX.REMARKS, 
+    HIT_PTTEP_BH_SUM_MAX.INSERT_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.UPDATE_DATE, 
+    HIT_PTTEP_BH_SUM_MAX.BOREHOLE_ALIAS
+FROM      
+    /shared/&quot;TEST 8.3 HF007&quot;/&quot;01913880&quot;/&quot;PROSOURCE-SDSPROD&quot;/HIT_USER/HIT_PTTEP_BH_SUM_MAX HIT_PTTEP_BH_SUM_MAX</attribute>
+  <attribute name="creationDate" type="LONG">1530521923237</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250181</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_sc</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1542242641600</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250181</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAEQUQYBABQASABJAFQAXwBQAFQAVABFAFAAXwBCAEgAXwBTAFUATQBfAE0AQQBYBgIAFABIAEkAVABfAFAAVABUAEUAUABfAEIASABfAFMAVQBNAF8ATQBBAFgDC/////8DCv////8DDP////8LEQAGAAYAcwBoAGEAcgBlAGQADgBUAEUAUwBUACAAOAAuADMAIABIAEYAMAAwADcACAAwADEAOQAxADMAOAA4ADAAEQBQAFIATwBTAE8AVQBSAEMARQAtAFMARABTAFAAUgBPAEQACABIAEkAVABfAFUAUwBFAFIAFABIAEkAVABfAFAAVABUAEUAUABfAEIASABfAFMAVQBNAF8ATQBBAFj//wMFAAAAAAgCEDEGAf//AQIBAQYAAQMAAQQAAQUAAwcAAAAABwkAAAABAAAAAAkKAAAAOhBCBgEABABDAEEAUwBUBgIADABQAFIATwBKAEUAQwBUAF8AQwBPAEQARQEJAAESAAkNAAAAAhBBBgEADABQAFIATwBKAEUAQwBUAF8AQwBPAEQARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA4AVgBBAFIAQwBIAEEAUgAyACgAMgAwADAAMAApAysAAAAPAxIAAAEOBAQAAAAAAAAH0AETAf//AwsAAAAA//8QQwYC//8IDBAbBgIABwBWAEEAUgBDAEgAQQBSAxIAAAEOBAQAAAAAAAAACgETAf///////xBBBgEADABQAFIATwBKAEUAQwBUAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAAwAVgBBAFIAQwBIAEEAUgAyACgANgA0ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAABAARMB//8DCwAAAAD//xBBBgEAEABJAE4AVABFAFIARQBTAFQAXwBQAEUAUgBDAEUATgBUBgIAAAYD//8GBP//Awr/////CAwQGAYCAAYARABPAFUAQgBMAEUGAwAGAE4AVQBNAEIARQBSAysAAAAPAxIAAAEL//8DCwAAAAD//xBBBgEADgBQAFIATwBKAEUAQwBUAF8AUwBUAEEAVABVAFMGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwAMAFYAQQBSAEMASABBAFIAMgAoADYANAApAysAAAAPAxIAAAEOBAQAAAAAAAAAQAETAf//AwsAAAAA//8QQQYBABEAUABSAE8ASgBFAEMAVABfAEwATwBOAEcASQBUAFUARABFBgIAAAYD//8GBP//Awr/////CAwQGAYCAAYARABPAFUAQgBMAEUGAwAGAE4AVQBNAEIARQBSAysAAAAPAxIAAAEL//8DCwAAAAD//xBBBgEAEABQAFIATwBKAEUAQwBUAF8ATABBAFQASQBUAFUARABFBgIAAAYD//8GBP//Awr/////CAwQGAYCAAYARABPAFUAQgBMAEUGAwAGAE4AVQBNAEIARQBSAysAAAAPAxIAAAEL//8DCwAAAAD//xBCBgEABABDAEEAUwBUBgIAFABQAFIATwBKAEUAQwBUAF8AQwBPAE8AUgBEAF8AUwBZAFMAVABFAE0BCQABEgAJDQAAAAIQQQYBABQAUABSAE8ASgBFAEMAVABfAEMATwBPAFIARABfAFMAWQBTAFQARQBNBgIAAAYD//8GBP//Awr/////CAwQGwYCAAQAQwBIAEEAUgYDAAcAQwBIAEEAUgAoADgAKQMrAAAADwMSAAABDgQFAAAAAAAAAAgEBAAAAAAAAAAIARMB//8DCwAAAAD//xBDBgL//wgMEBsGAgAHAFYAQQBSAEMASABBAFIDEgAAAQ4EBAAAAAAAAAAKARMB////////EEEGAQASAFAAUgBPAEoARQBDAFQAXwBPAFIASQBHAEkATgBBAEwAXwBYBgIAAAYD//8GBP//Awr/////CAwQGAYCAAYARABPAFUAQgBMAEUGAwAGAE4AVQBNAEIARQBSAysAAAAPAxIAAAEL//8DCwAAAAD//xBBBgEAEgBQAFIATwBKAEUAQwBUAF8ATwBSAEkARwBJAE4AQQBMAF8AWQYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBABkAUABSAE8ASgBFAEMAVABfAE8AUgBJAEcASQBOAEEATABfAEMAUgBTAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQAEAEEAUgBFAEEGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwAMAFYAQQBSAEMASABBAFIAMgAoADYANAApAysAAAAPAxIAAAEOBAQAAAAAAAAAQAETAf//AwsAAAAA//8QQQYBAAsAUABSAE8ASgBFAEMAVABfAEwATwBDBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQAKAEYASQBFAEwARABfAE4AQQBNAEUGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwANAFYAQQBSAEMASABBAFIAMgAoADIANQA1ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAD/ARMB//8DCwAAAAD//xBBBgEACgBGAEkARQBMAEQAXwBDAE8ARABFBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADQBWAEEAUgBDAEgAQQBSADIAKAAyADUANQApAysAAAAPAxIAAAEOBAQAAAAAAAAA/wETAf//AwsAAAAA//8QQQYBAAoAQgBMAE8AQwBLAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQADAFUAVwBJBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQAKAEYASQBOAEQARQBSAF8AVQBXAEkGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwANAFYAQQBSAEMASABBAFIAMgAoADIANQA1ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAD/ARMB//8DCwAAAAD//xBBBgEACQBXAEUATABMAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQAIAE8AUABFAFIAQQBUAE8AUgYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMQAyADgAKQMrAAAADwMSAAABDgQEAAAAAAAAAIABEwH//wMLAAAAAP//EEEGAQAOAE8AUgBJAEcASQBOAEEATABfAFQATwBQAF8AWAYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAA4ATwBSAEkARwBJAE4AQQBMAF8AVABPAFAAXwBZBgIAAAYD//8GBP//Awr/////CAwQGAYCAAYARABPAFUAQgBMAEUGAwAGAE4AVQBNAEIARQBSAysAAAAPAxIAAAEL//8DCwAAAAD//xBBBgEADwBPAFIASQBHAEkATgBBAEwAXwBCAEEAUwBFAF8AWAYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAA8ATwBSAEkARwBJAE4AQQBMAF8AQgBBAFMARQBfAFkGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQAPAFgAXwBZAF8ARABBAFQAQQBfAFMATwBVAFIAQwBFBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQAWAFcARQBMAEwAXwBDAE8ATwBSAEQAXwBTAFkAUwBUAEUATQBfAE4AQQBNAEUGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwANAFYAQQBSAEMASABBAFIAMgAoADIANQA1ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAD/ARMB//8DCwAAAAD//xBBBgEABABVAEIASABJBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQANAEIATwBSAEUASABPAEwARQBfAE4AQQBNAEUGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwANAFYAQQBSAEMASABBAFIAMgAoADIANQA1ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAD/ARMB//8DCwAAAAD//xBBBgEAEwBCAE8AUgBFAEgATwBMAEUAXwBTAEgATwBSAFQAXwBOAEEATQBFBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADQBWAEEAUgBDAEgAQQBSADIAKAAyADUANQApAysAAAAPAxIAAAEOBAQAAAAAAAAA/wETAf//AwsAAAAA//8QQQYBAA0AQgBPAFIARQBIAE8ATABFAF8AVABZAFAARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQAOAEIATwBSAEUASABPAEwARQBfAFMASABBAFAARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAAwAVgBBAFIAQwBIAEEAUgAyACgANgA0ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAABAARMB//8DCwAAAAD//xBBBgEAFgBCAE8AUgBFAEgATwBMAEUAXwBDAFUAUgBSAEUATgBUAF8AQwBMAEEAUwBTBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQAPAEIATwBSAEUASABPAEwARQBfAFMAVABBAFQAVQBTBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADABWAEEAUgBDAEgAQQBSADIAKAA2ADQAKQMrAAAADwMSAAABDgQEAAAAAAAAAEABEwH//wMLAAAAAP//EEEGAQAJAFMAUABVAEQAXwBEAEEAVABFBgIAAAYD//8GBP//Awr/////CAwQFgYCAAQARABBAFQARQYDAAQARABBAFQARQMrAAAADwMSAAABCf//AwsAAAAA//8QQQYBAA8AQwBPAE0AUABMAEUAVABJAE8ATgBfAEQAQQBUAEUGAgAABgP//wYE//8DCv////8IDBAWBgIABABEAEEAVABFBgMABABEAEEAVABFAysAAAAPAxIAAAEJ//8DCwAAAAD//xBBBgEADwBUAEQAXwBSAEUAQQBDAEgARQBEAF8ARABBAFQARQYCAAAGA///BgT//wMK/////wgMEBYGAgAEAEQAQQBUAEUGAwAEAEQAQQBUAEUDKwAAAA8DEgAAAQn//wMLAAAAAP//EEEGAQAQAFIASQBHAF8AUgBFAEwARQBBAFMARQBfAEQAQQBUAEUGAgAABgP//wYE//8DCv////8IDBAWBgIABABEAEEAVABFBgMABABEAEEAVABFAysAAAAPAxIAAAEJ//8DCwAAAAD//xBBBgEACQBFAEwARQBWAEEAVABJAE8ATgYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAA0ARQBMAEUAVgBBAFQASQBPAE4AXwBSAEUARgYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAAwAVgBBAFIAQwBIAEEAUgAyACgANgA0ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAABAARMB//8DCwAAAAD//xBBBgEACwBXAEEAVABFAFIAXwBEAEUAUABUAEgGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQAKAEQAUgBJAEwATABFAFIAXwBNAEQGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQALAEQAUgBJAEwATABFAFIAXwBUAFYARAYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAAkATABPAEcARwBFAFIAXwBNAEQGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQAKAEwATwBHAEcARQBSAF8AVABWAEQGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQANAEQAUgBJAEwATABFAFIAXwBQAEIAXwBUAEQGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQAJAEYATwBSAE0AQQBUAEkATwBOBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADQBWAEEAUgBDAEgAQQBSADIAKAAyADUANQApAysAAAAPAxIAAAEOBAQAAAAAAAAA/wETAf//AwsAAAAA//8QQQYBAAgAUABMAEEAVABGAE8AUgBNBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADQBWAEEAUgBDAEgAQQBSADIAKAAyADUANQApAysAAAAPAxIAAAEOBAQAAAAAAAAA/wETAf//AwsAAAAA//8QQQYBAA0AVABPAFAAXwBMAE8ATgBHAEkAVABVAEQARQYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAAwAVABPAFAAXwBMAEEAVABJAFQAVQBEAEUGAgAABgP//wYE//8DCv////8IDBAYBgIABgBEAE8AVQBCAEwARQYDAAYATgBVAE0AQgBFAFIDKwAAAA8DEgAAAQv//wMLAAAAAP//EEEGAQAOAEIAQQBTAEUAXwBMAE8ATgBHAEkAVABVAEQARQYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBAA0AQgBBAFMARQBfAEwAQQBUAEkAVABVAEQARQYCAAAGA///BgT//wMK/////wgMEBgGAgAGAEQATwBVAEIATABFBgMABgBOAFUATQBCAEUAUgMrAAAADwMSAAABC///AwsAAAAA//8QQQYBABAAUABSAE8ASgBFAEMAVABfAEMAQQBUAEUARwBPAFIAWQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAAwAVgBBAFIAQwBIAEEAUgAyACgANgA0ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAABAARMB//8DCwAAAAD//xBBBgEADABDAE8AVQBOAFQAUgBZAF8ATgBBAE0ARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQALAFMATABPAFQAXwBOAFUATQBCAEUAUgYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAA0AVgBBAFIAQwBIAEEAUgAyACgAMgA1ADUAKQMrAAAADwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAP//EEEGAQALAEQAQQBUAEEAXwBTAE8AVQBSAEMARQYCAAAGA///BgT//wMK/////wgMEBsGAgAIAFYAQQBSAEMASABBAFIAMgYDAAwAVgBBAFIAQwBIAEEAUgAyACgANgA0ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAABAARMB//8DCwAAAAD//xBBBgEABwBSAEUATQBBAFIASwBTBgIAAAYD//8GBP//Awr/////CAwQGwYCAAgAVgBBAFIAQwBIAEEAUgAyBgMADgBWAEEAUgBDAEgAQQBSADIAKAAyADAAMAAwACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAfQARMB//8DCwAAAAD//xBBBgEACwBJAE4AUwBFAFIAVABfAEQAQQBUAEUGAgAABgP//wYE//8DCv////8IDBAWBgIABABEAEEAVABFBgMABABEAEEAVABFAysAAAAPAxIAAAEJ//8DCwAAAAD//xBBBgEACwBVAFAARABBAFQARQBfAEQAQQBUAEUGAgAABgP//wYE//8DCv////8IDBAWBgIABABEAEEAVABFBgMABABEAEEAVABFAysAAAAPAxIAAAEJ//8DCwAAAAD//xBBBgEADgBCAE8AUgBFAEgATwBMAEUAXwBBAEwASQBBAFMGAgAABgP//wYE//8DCv////8IDBAbBgIACABWAEEAUgBDAEgAQQBSADIGAwANAFYAQQBSAEMASABBAFIAMgAoADIANQA1ACkDKwAAAA8DEgAAAQ4EBAAAAAAAAAD/ARMB//8DCwAAAAD/////CQYAAAABEIIDCgAAADcDCwAAACIDDAAAAQwDDQAAAjb//wgDEHEDAQAAAAsDAgAAADsJAwAAAokQdAMGAAAAAP//EHIGBAAMAFAAUgBPAEoARQBDAFQAXwBDAE8ARABF//8Qc///EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAB//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAL//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAA///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAE//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAX//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAABv//EHIGBAAUAFAAUgBPAEoARQBDAFQAXwBDAE8ATwBSAEQAXwBTAFkAUwBUAEUATf//EHP//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAB///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAI//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAn//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAACv//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAL//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAz//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAADf//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAO//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAA///xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAEP//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAR//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAABL//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAE///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAU//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAABX//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAFv//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAX//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAABj//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAGf//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAa//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAABv//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAHP//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAd//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAB7//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAH///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAg//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAACH//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAIv//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAj//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAACT//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAJf//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAm//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAACf//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAKP//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAp//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAACr//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAK///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAs//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAC3//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAALv//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAv//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAADD//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAMf//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAy//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAADP//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAANP//EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAA1//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAADb//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAN///EHIGBP////8QcwMFAAAAAP//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAA4//8QcgYE/////xBzAwUAAAAA//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAADn//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb///////8=</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1530521923237</attribute>
+</metadata>

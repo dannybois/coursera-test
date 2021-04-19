@@ -1,0 +1,266 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:0fd8840f-977d-476a-999e-cab2919148a4 -->
+<metadata name="V_PFJ_AFE_EXPENDITURE_PIVOT" path="/shared/TEST 8.3 HF007/01913880/ETL/ETL_DV/dbo/V_PFJ_AFE_EXPENDITURE_PIVOT" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="AFE_NUMBER" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_DESCRIPTION" nullable="true">
+      <datatype name="nvarchar" extendedName="nvarchar(255)" subType="DATASOURCE_TYPE" type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AFE_TOTAL_AMOUNT" nullable="true">
+      <datatype name="float" extendedName="float" subType="DATASOURCE_TYPE" type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CAPEX_DESCRIPTION" nullable="true">
+      <datatype name="varchar" extendedName="varchar(100)" subType="DATASOURCE_TYPE" type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YEAR" nullable="true">
+      <datatype name="int" extendedName="int" subType="DATASOURCE_TYPE" type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_JAN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_JAN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_JAN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_FEB" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_FEB" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_FEB" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_MAR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_MAR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_MAR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_APR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_APR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_APR" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_MAY" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_MAY" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_MAY" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_JUN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_JUN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_JUN" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_JUL" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_JUL" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_JUL" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_AUG" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_AUG" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_AUG" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_SEP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_SEP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_SEP" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_OCT" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_OCT" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_OCT" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_NOV" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_NOV" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_NOV" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="MTD_DEC" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="YTD_DEC" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ITD_DEC" nullable="true">
+      <datatype name="numeric" extendedName="numeric(38,6)" subType="DATASOURCE_TYPE" type="DECIMAL" maxDigits="38" minFractionalDigits="6" maxFractionalDigits="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="creationDate" type="LONG">1549422286493</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">250173</attribute>
+  <attribute name="creatorUserName" type="STRING">prod_up</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1549422286493</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">250173</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">prod_up</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1549422286493</attribute>
+</metadata>
