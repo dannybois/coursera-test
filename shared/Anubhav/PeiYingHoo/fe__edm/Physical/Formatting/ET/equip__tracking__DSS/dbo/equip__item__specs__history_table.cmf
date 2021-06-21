@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="equip_item_specs_history" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ET/equip_tracking_DSS/dbo/equip_item_specs_history" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="specs_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="sequence_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="value_type_label" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="value" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/equip_item_specs_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="specs_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="sequence_no" nullable="false">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="value_type_label" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="value" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;equip_item_specs_history.specs_OID specs_OID,
+&#x9;equip_item_specs_history.sequence_no sequence_no,
+&#x9;equip_item_specs_history.value_type_label value_type_label,
+&#x9;equip_item_specs_history.&quot;value&quot; &quot;value&quot; 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/equip_item_specs_history equip_item_specs_history</attribute>
+  <attribute name="creationDate" type="LONG">1608002440904</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18069</attribute>
+  <attribute name="creatorUserName" type="STRING">boyin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1613726668017</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18069</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1608002440904</attribute>
+</metadata>

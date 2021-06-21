@@ -1,0 +1,218 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="CatalogLotHistory" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/ProbeTracking/PrbProductDss/CatalogLotHistory" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PA_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="box_type_id" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="reason_text" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fab_step_name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="max_day_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="min_day_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="min_wafer_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="grace_day_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="enable_min_maturity_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="allow_checkout_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="match_reticles_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="allow_merge_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="match_traveler_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="archive_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="dst_traveler_name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="dst_step_name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="min_die_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PA_ID" nullable="true">
+      <datatype type="STRING" minLength="30" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="PA_ID">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/catalog_lot_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="box_type_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="reason_text">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="fab_step_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="max_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_wafer_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="grace_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="enable_min_maturity_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="allow_checkout_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="match_reticles_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="allow_merge_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="match_traveler_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="archive_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="dst_traveler_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="dst_step_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="min_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;catalog_lot_history.PA_OID,
+    catalog_lot_history.box_type_id, 
+    catalog_lot_history.reason_text, 
+    catalog_lot_history.fab_step_name, 
+    catalog_lot_history.max_day_value, 
+    catalog_lot_history.min_day_value, 
+    catalog_lot_history.min_wafer_value, 
+    catalog_lot_history.grace_day_value, 
+    catalog_lot_history.enable_min_maturity_flag, 
+    catalog_lot_history.allow_checkout_flag, 
+    catalog_lot_history.match_reticles_flag, 
+    catalog_lot_history.allow_merge_flag, 
+    catalog_lot_history.match_traveler_flag, 
+    catalog_lot_history.archive_flag, 
+    catalog_lot_history.dst_traveler_name, 
+    catalog_lot_history.dst_step_name, 
+    catalog_lot_history.min_die_qty, 
+    PA_history.PA_ID
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/catalog_lot_history catalog_lot_history INNER JOIN 
+        /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_history PA_history
+    ON PA_history.PA_OID = catalog_lot_history.PA_OID</attribute>
+  <attribute name="creationDate" type="LONG">1612861063264</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1617162305171</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">phoo</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1612861063264</attribute>
+</metadata>

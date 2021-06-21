@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="FPPartialDensity" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/FabPlanning/FPPartialDensity" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="part_group_name" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="design_ID" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="density_category" nullable="true">
+      <datatype type="STRING" maxLength="16"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ratio" nullable="true">
+      <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="full_density_part_group_name" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="density" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_process_step" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_ID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_partial_density" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="density_category">
+        <datatype type="STRING" maxLength="16"/>
+      </element>
+      <element name="ratio">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="3"/>
+      </element>
+      <element name="full_density_part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="density">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="mfg_process_step">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_OID">
+        <datatype type="BINARY" minLength="8" maxLength="8"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/mfg_facility" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_facility_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_state">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_function">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_no">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    FP_partial_density.part_group_name, 
+    FP_partial_density.design_id design_ID, 
+    FP_partial_density.density_category, 
+    FP_partial_density.ratio, 
+    FP_partial_density.full_density_part_group_name, 
+    FP_partial_density.density, 
+    FP_partial_density.mfg_process_step, 
+    mfg_facility.mfg_facility_ID
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_partial_density FP_partial_density INNER JOIN 
+        /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/mfg_facility mfg_facility
+    ON mfg_facility.mfg_facility_OID = FP_partial_density.mfg_facility_OID</attribute>
+  <attribute name="creationDate" type="LONG">1611816532141</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20128</attribute>
+  <attribute name="creatorUserName" type="STRING">phoo</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1612862463097</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">20128</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="BYTE_ARRAY">EIEJBAAAAAMQUQYBAAwAbQBmAGcAXwBmAGEAYwBpAGwAaQB0AHkGAgAMAG0AZgBnAF8AZgBhAGMAaQBsAGkAdAB5Awv/////Awr/////Awz/////CxEACgAGAHMAaABhAHIAZQBkAAcAQQBuAHUAYgBoAGEAdgAKAFAAZQBpAFkAaQBuAGcASABvAG8ABgBmAGUAXwBlAGQAbQAIAFAAaAB5AHMAaQBjAGEAbAAKAEYAbwByAG0AYQB0AHQAaQBuAGcACwBGAGEAYgBUAHIAYQBjAGsAaQBuAGcACQByAGUAZgBlAHIAZQBuAGMAZQADAGQAYgBvAAwAbQBmAGcAXwBmAGEAYwBpAGwAaQB0AHn//xBRBgEAEgBGAFAAXwBwAGEAcgB0AGkAYQBsAF8AZABlAG4AcwBpAHQAeQYCABIARgBQAF8AcABhAHIAdABpAGEAbABfAGQAZQBuAHMAaQB0AHkDC/////8DCv////8DDP////8LEQAKAAYAcwBoAGEAcgBlAGQABwBBAG4AdQBiAGgAYQB2AAoAUABlAGkAWQBpAG4AZwBIAG8AbwAGAGYAZQBfAGUAZABtAAgAUABoAHkAcwBpAGMAYQBsAAoARgBvAHIAbQBhAHQAdABpAG4AZwALAEYAYQBiAFQAcgBhAGMAawBpAG4AZwAJAHIAZQBmAGUAcgBlAG4AYwBlAAMAZABiAG8AEgBGAFAAXwBwAGEAcgB0AGkAYQBsAF8AZABlAG4AcwBpAHQAef//EFMGCQAFAEkATgBOAEUAUgMNAAAAAQMOAAAAAAgPEGIGBwABAD0BBQAIAxBBBgEAEABtAGYAZwBfAGYAYQBjAGkAbABpAHQAeQBfAE8ASQBEBgIAAAYD//8GBP//Awr/////AwsAAAAA//8IBBBBBgEAEABtAGYAZwBfAGYAYQBjAGkAbABpAHQAeQBfAE8ASQBEBgIAAAYD//8GBP//Awr/////AwsAAAAB////////AwUAAAABCAIQMQYB//8BAgEBBgABAwABBAABBQADBwAAAAAHCQAAAAEAAAACCQoAAAAIEEEGAQAPAHAAYQByAHQAXwBnAHIAbwB1AHAAXwBuAGEAbQBlBgIAAAYD//8GBP//Awr/////CAwQGwMSAAABDgQFAAAAAAAAADIEBAAAAAAAAAAyARMB//8DCwAAAAH//xBBBgEACQBkAGUAcwBpAGcAbgBfAGkAZAYCAAkAZABlAHMAaQBnAG4AXwBJAEQGA///BgT//wMK/////wgMEBsDEgAAAQ4EBQAAAAAAAAAKBAQAAAAAAAAACgETAf//AwsAAAAB//8QQQYBABAAZABlAG4AcwBpAHQAeQBfAGMAYQB0AGUAZwBvAHIAeQYCAAAGA///BgT//wMK/////wgMEBsDEgAAAQ4EBAAAAAAAAAAQARMB//8DCwAAAAH//xBBBgEABQByAGEAdABpAG8GAgAABgP//wYE//8DCv////8IDBAXAxIAAAEKAw4AAAAEAxAAAAAD//8DCwAAAAH//xBBBgEAHABmAHUAbABsAF8AZABlAG4AcwBpAHQAeQBfAHAAYQByAHQAXwBnAHIAbwB1AHAAXwBuAGEAbQBlBgIAAAYD//8GBP//Awr/////CAwQGwMSAAABDgQFAAAAAAAAADIEBAAAAAAAAAAyARMB//8DCwAAAAH//xBBBgEABwBkAGUAbgBzAGkAdAB5BgIAAAYD//8GBP//Awr/////CAwQGwMSAAABDgQEAAAAAAAAAP8BEwH//wMLAAAAAf//EEEGAQAQAG0AZgBnAF8AcAByAG8AYwBlAHMAcwBfAHMAdABlAHAGAgAABgP//wYE//8DCv////8IDBAbAxIAAAEOBAQAAAAAAAAAMgETAf//AwsAAAAB//8QQQYBAA8AbQBmAGcAXwBmAGEAYwBpAGwAaQB0AHkAXwBJAEQGAgAABgP//wYE//8DCv////8IDBAbAxIAAAEOBAQAAAAAAAAAMgETAf//AwsAAAAA/////wkGAAAAAxCCAwoAAAHXAwsAAABfAwwAAADIAw0AAABs//8QggMKAAAAiwMLAAAATwMMAAABBwMNAAAAtP//EIIDCv////8DC/////8DDP////8DDf///////wgDEHEDAQAAAAsDAgAAADIJAwAAAiYQdAMGAAAAAP//EHIGBP////8QcwMFAAAAAf//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAB//8QcgYEAAkAZABlAHMAaQBnAG4AXwBJAET//xBzAwUAAAAB//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAL//xByBgT/////EHMDBQAAAAH//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAAA///EHIGBP////8QcwMFAAAAAf//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0AwYAAAAE//8QcgYE/////xBzAwUAAAAB//8QdQEHAf//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAX//xByBgT/////EHMDBQAAAAH//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAMGAAAABv//EHIGBP////8QcwMFAAAAAf//EHUBBwH//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0BgkAIwBGAFAAXwBwAGEAcgB0AGkAYQBsAF8AZABlAG4AcwBpAHQAeQAuAG0AZgBnAF8AZgBhAGMAaQBsAGkAdAB5AF8ATwBJAET//xByBgT/////EHMDBQAAAAH//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAYJAB0AbQBmAGcAXwBmAGEAYwBpAGwAaQB0AHkALgBtAGYAZwBfAGYAYQBjAGkAbABpAHQAeQBfAE8ASQBE//8QcgYE/////xBzAwUAAAAA//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHQDBgAAAAf//xByBgT/////EHMDBQAAAAD//xB1AQcB//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdAYJAB8AbQBmAGcAXwBmAGEAYwBpAGwAaQB0AHkALgBtAGYAZwBfAGYAYQBjAGkAbABpAHQAeQBfAHMAdABhAHQAZf//EHIGBP////8QcwMFAAAAAP//EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0BgkAIgBtAGYAZwBfAGYAYQBjAGkAbABpAHQAeQAuAG0AZgBnAF8AZgBhAGMAaQBsAGkAdAB5AF8AZgB1AG4AYwB0AGkAbwBu//8QcgYE/////xBzAwUAAAAA//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb//xB0//8QcgYE/////xBz//8QdQEHAP//EHgGC/////8QdwMK////////EHkGDP////8Qdv//EHb//xB2//8Qdv//EHT//xByBgT/////EHP//xB1AQcA//8QeAYL/////xB3Awr///////8QeQYM/////xB2//8Qdv//EHb//xB2//8QdP//EHIGBP////8Qc///EHUBBwD//xB4Bgv/////EHcDCv///////xB5Bgz/////EHb//xB2//8Qdv//EHb///////8=</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611816532141</attribute>
+</metadata>

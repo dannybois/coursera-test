@@ -1,0 +1,217 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="EquipmentAttribute" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/mfg_ET/EquipmentAttribute" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="equip_item_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_nickname" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_desc" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_datatype" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="data_length_value" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="data_precision_value" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="min_value_ct" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="max_value_ct" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="default_value" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="validation_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="oos_action" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="calc_ID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="level_assoc_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_ID" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mfg_facility_ID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="sequence_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="def_value" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="revision_worker_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="revision_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_item_level_def_ident" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/EPMS/Reference/EPMAuthDataView" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/mfg_ET/EquipItemLevelDef" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/system/customfunctions/CurrentUserName" type="PROCEDURE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    EquipItemLevelDef.equip_item_no, 
+    EquipItemLevelDef.equip_item_name, 
+    EquipItemLevelDef.equip_item_nickname, 
+    EquipItemLevelDef.equip_item_desc, 
+    EquipItemLevelDef.equip_item_type, 
+    EquipItemLevelDef.equip_item_datatype, 
+    EquipItemLevelDef.data_length_value, 
+    EquipItemLevelDef.data_precision_value, 
+    EquipItemLevelDef.min_value_ct, 
+    EquipItemLevelDef.max_value_ct, 
+    EquipItemLevelDef.default_value, 
+    EquipItemLevelDef.validation_type, 
+    EquipItemLevelDef.oos_action, 
+    EquipItemLevelDef.calc_ID, 
+    EquipItemLevelDef.level_assoc_no, 
+    EquipItemLevelDef.equip_ID, 
+    EquipItemLevelDef.mfg_facility_ID, 
+    EquipItemLevelDef.sequence_no, 
+    EquipItemLevelDef.def_value, 
+    EquipItemLevelDef.revision_worker_no, 
+    EquipItemLevelDef.revision_datetime, 
+    EquipItemLevelDef.equip_item_level_def_ident
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/mfg_ET/EquipItemLevelDef EquipItemLevelDef
+&#x9;
+WHERE  mfg_facility_ID in (
+select EPMAuthDataView.res from /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/EPMS/Reference/EPMAuthDataView EPMAuthDataView
+where EPMAuthDataView.EPM_type = &apos;Facility&apos; AND 
+EPMAuthDataView.micron_username = upper(CurrentUserName()))</attribute>
+  <attribute name="creationDate" type="LONG">1612711689037</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">&apos;CurrentUserName&apos; is not a recognized function.  On line 30, column 41.  [parser-2909505]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1615430645665</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1612711689037</attribute>
+</metadata>

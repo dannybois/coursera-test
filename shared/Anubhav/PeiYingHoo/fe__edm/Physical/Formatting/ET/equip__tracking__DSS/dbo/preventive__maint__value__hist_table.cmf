@@ -1,0 +1,183 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="preventive_maint_value_hist" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ET/equip_tracking_DSS/dbo/preventive_maint_value_hist" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="equip_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_current_count" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_scheduled_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="hist_insert_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_by_system" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="modified_by_empno" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="modified_action" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_by_empno" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="modified_by_system" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="record_status" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mod_dt" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint_value_hist" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="equip_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="event_code_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_usage_current_count">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_scheduled_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="hist_insert_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="PM_modified_by_system" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_modified_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="modified_by_empno" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="modified_action" nullable="false">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="PM_modified_by_empno">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="modified_by_system" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="record_status">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="mod_dt">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;preventive_maint_value_hist.equip_OID equip_OID,
+&#x9;preventive_maint_value_hist.event_code_id event_code_id,
+&#x9;preventive_maint_value_hist.PM_usage_current_count PM_usage_current_count,
+&#x9;preventive_maint_value_hist.PM_scheduled_datetime PM_scheduled_datetime,
+&#x9;preventive_maint_value_hist.hist_insert_datetime hist_insert_datetime,
+&#x9;preventive_maint_value_hist.PM_OID PM_OID,
+&#x9;preventive_maint_value_hist.PM_modified_by_system PM_modified_by_system,
+&#x9;preventive_maint_value_hist.PM_modified_datetime PM_modified_datetime,
+&#x9;preventive_maint_value_hist.modified_by_empno modified_by_empno,
+&#x9;preventive_maint_value_hist.modified_action modified_action,
+&#x9;preventive_maint_value_hist.PM_modified_by_empno PM_modified_by_empno,
+&#x9;preventive_maint_value_hist.modified_by_system modified_by_system,
+&#x9;preventive_maint_value_hist.record_status record_status,
+&#x9;preventive_maint_value_hist.mod_dt mod_dt 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint_value_hist preventive_maint_value_hist</attribute>
+  <attribute name="creationDate" type="LONG">1608002459918</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18069</attribute>
+  <attribute name="creatorUserName" type="STRING">boyin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1613726669407</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18069</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1608002459918</attribute>
+</metadata>

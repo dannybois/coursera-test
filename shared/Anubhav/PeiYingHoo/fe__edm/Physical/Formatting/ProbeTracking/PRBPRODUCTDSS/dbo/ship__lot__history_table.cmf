@@ -1,0 +1,656 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="ship_lot_history" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/ship_lot_history" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PA_lot_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="current_area_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="current_facility_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="current_subarea_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="design_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="dispo_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="fab_designator_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="good_die_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="in_probe" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="location_datetime" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="login_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="lot_cassette_oid" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="lot_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="offload_lot" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="offload_return" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="origin_facility_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="origin_facility_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="origin_facility_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="package_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="part" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="partials" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="partials_die_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="prb_goal_cat" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="prb_goal_subcat" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="prb_goal_subcat_dflt" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="prb_ns_process_flag" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="preprobe_die_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_catalog_lot" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_post_rdl_lot" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_reconfig_lot" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_ship_lot_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="product_grade_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="report_lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="sap_die_ship_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="ship_dest_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="ship_map_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="shipped_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="spectek_first_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="spectek_fourth_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="spectek_second_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="spectek_third_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="split_parent_lot" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="step" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="swr_flag" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="tracked_into_step" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="trackin_required" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="trackin_status" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="tracking_status" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="traveler_facility_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="traveler_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_size" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafmove_pending_flag" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="history_insert_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="current_site_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="archive_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ProbeTracking/PRBPRODUCTDSS/dbo/ship_lot_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_lot_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="lot_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_area_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_facility_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_subarea_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="dispo_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="fab_designator_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="good_die_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="in_probe">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="location_datetime">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="login_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="lot_cassette_oid">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="lot_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="offload_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="offload_return">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="package_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="part">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="partials">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="partials_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="prb_goal_cat">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_goal_subcat">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_goal_subcat_dflt">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_ns_process_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="preprobe_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="probe_catalog_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_post_rdl_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_reconfig_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_ship_lot_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="product_grade_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="report_lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="sap_die_ship_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ship_dest_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="ship_map_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="shipped_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="spectek_first_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_fourth_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_second_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_third_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="split_parent_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="step">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="swr_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="tracked_into_step">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="trackin_required">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="trackin_status">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="tracking_status">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="traveler_facility_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="traveler_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="wafer_size">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafmove_pending_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="history_insert_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="current_site_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="archive_flag" nullable="false">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;ship_lot_history.PA_lot_OID PA_lot_OID,
+&#x9;ship_lot_history.lot_id lot_id,
+&#x9;ship_lot_history.current_area_id current_area_id,
+&#x9;ship_lot_history.current_facility_id current_facility_id,
+&#x9;ship_lot_history.current_subarea_id current_subarea_id,
+&#x9;ship_lot_history.design_id design_id,
+&#x9;ship_lot_history.dispo_code dispo_code,
+&#x9;ship_lot_history.fab_designator_code fab_designator_code,
+&#x9;ship_lot_history.good_die_count good_die_count,
+&#x9;ship_lot_history.in_probe in_probe,
+&#x9;ship_lot_history.location_datetime location_datetime,
+&#x9;ship_lot_history.login_datetime login_datetime,
+&#x9;ship_lot_history.lot_cassette_oid lot_cassette_oid,
+&#x9;ship_lot_history.lot_type lot_type,
+&#x9;ship_lot_history.offload_lot offload_lot,
+&#x9;ship_lot_history.offload_return offload_return,
+&#x9;ship_lot_history.origin_facility_code origin_facility_code,
+&#x9;ship_lot_history.origin_facility_id origin_facility_id,
+&#x9;ship_lot_history.origin_facility_no origin_facility_no,
+&#x9;ship_lot_history.package_code package_code,
+&#x9;ship_lot_history.part part,
+&#x9;ship_lot_history.partials partials,
+&#x9;ship_lot_history.partials_die_qty partials_die_qty,
+&#x9;ship_lot_history.prb_goal_cat prb_goal_cat,
+&#x9;ship_lot_history.prb_goal_subcat prb_goal_subcat,
+&#x9;ship_lot_history.prb_goal_subcat_dflt prb_goal_subcat_dflt,
+&#x9;ship_lot_history.prb_ns_process_flag prb_ns_process_flag,
+&#x9;ship_lot_history.preprobe_die_qty preprobe_die_qty,
+&#x9;ship_lot_history.probe_catalog_lot probe_catalog_lot,
+&#x9;ship_lot_history.probe_post_rdl_lot probe_post_rdl_lot,
+&#x9;ship_lot_history.probe_reconfig_lot probe_reconfig_lot,
+&#x9;ship_lot_history.probe_ship_lot_no probe_ship_lot_no,
+&#x9;ship_lot_history.product_grade_id product_grade_id,
+&#x9;ship_lot_history.report_lot_id report_lot_id,
+&#x9;ship_lot_history.sap_die_ship_qty sap_die_ship_qty,
+&#x9;ship_lot_history.ship_dest_code ship_dest_code,
+&#x9;ship_lot_history.ship_map_name ship_map_name,
+&#x9;ship_lot_history.shipped_datetime shipped_datetime,
+&#x9;ship_lot_history.spectek_first_pass spectek_first_pass,
+&#x9;ship_lot_history.spectek_fourth_pass spectek_fourth_pass,
+&#x9;ship_lot_history.spectek_second_pass spectek_second_pass,
+&#x9;ship_lot_history.spectek_third_pass spectek_third_pass,
+&#x9;ship_lot_history.split_parent_lot split_parent_lot,
+&#x9;ship_lot_history.step step,
+&#x9;ship_lot_history.swr_flag swr_flag,
+&#x9;ship_lot_history.tracked_into_step tracked_into_step,
+&#x9;ship_lot_history.trackin_required trackin_required,
+&#x9;ship_lot_history.trackin_status trackin_status,
+&#x9;ship_lot_history.tracking_status tracking_status,
+&#x9;ship_lot_history.traveler_facility_id traveler_facility_id,
+&#x9;ship_lot_history.traveler_name traveler_name,
+&#x9;ship_lot_history.wafer_count wafer_count,
+&#x9;ship_lot_history.wafer_size wafer_size,
+&#x9;ship_lot_history.wafmove_pending_flag wafmove_pending_flag,
+&#x9;ship_lot_history.history_insert_datetime history_insert_datetime,
+&#x9;ship_lot_history.current_site_id current_site_id,
+&#x9;ship_lot_history.archive_flag archive_flag 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ProbeTracking/PRBPRODUCTDSS/dbo/ship_lot_history ship_lot_history</attribute>
+  <attribute name="creationDate" type="LONG">1611039057520</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611039057520</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611039057520</attribute>
+</metadata>

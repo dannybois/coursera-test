@@ -1,0 +1,733 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="probe_wafer_summary" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBSumIndexDSS/dbo/probe_wafer_summary" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="lot_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_no" nullable="true">
+      <datatype type="STRING" minLength="8" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_step_code" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="related_probe_step_code" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="map_version" nullable="true">
+      <datatype type="STRING" minLength="4" maxLength="4"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="start_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="end_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="interface_no" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="program_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="log_revision" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="station_brief_name" nullable="true">
+      <datatype type="STRING" minLength="4" maxLength="4"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_card_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="lot_start_workweek" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="temperature_value" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="UIN_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="UPASS_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="program_revision_no" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="partial_summary_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="inserted_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_summary_text" nullable="true">
+      <datatype type="STRING" maxLength="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="part_type_when_probed" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="card_configuration_name" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_location_name" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="prober_type_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="epoch_start_time" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="epoch_end_time" nullable="true">
+      <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="test_flow_name" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_wafer_summary_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="design_id" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="free_index_name1" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="free_index_name2" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_wafer_version_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_process_id" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probe_run_id" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="asset_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="data_set_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_touchdown_count" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_scribe" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mfg_facility_no" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="updated_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="custom_crunch_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="map_part_code" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="map_version_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="map_wafer_size" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="archive_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="restore_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="station_name" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mfg_site_id" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="esdabin_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="start_lot_key" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="report_lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="data_insertion_code" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="probecard_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="program_revision_id" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="sw_release_id" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="wafer_reprobe_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="disk_blocks_used" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="file_path" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="start_lot_version_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="report_lot_version_no" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="inserted_workweek" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="inserted_workyear" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="UNC_windows_path" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ProbeTracking/PRBSumIndexDSS/dbo/probe_wafer_summary" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="lot_no" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_no" nullable="false">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="probe_step_code" nullable="false">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="related_probe_step_code" nullable="false">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="map_version" nullable="false">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="start_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="end_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="interface_no" nullable="false">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="program_name" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="log_revision" nullable="false">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="station_brief_name" nullable="false">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="probe_card_no" nullable="false">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="lot_start_workweek" nullable="false">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="temperature_value" nullable="false">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="UIN_qty" nullable="false">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="UPASS_qty" nullable="false">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="program_revision_no" nullable="false">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="partial_summary_flag" nullable="false">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="inserted_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="wafer_summary_text">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="part_type_when_probed">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="card_configuration_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_location_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="prober_type_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="epoch_start_time">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      </element>
+      <element name="epoch_end_time">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      </element>
+      <element name="test_flow_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_wafer_summary_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="free_index_name1">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="free_index_name2">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_wafer_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="probe_process_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_run_id">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="asset_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="data_set_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_touchdown_count">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="wafer_scribe">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_facility_no">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="updated_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="custom_crunch_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="map_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="map_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="map_wafer_size">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="archive_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="restore_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="station_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_site_id">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="esdabin_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="start_lot_key">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="report_lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="data_insertion_code">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="probecard_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="program_revision_id">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="sw_release_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="wafer_reprobe_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="disk_blocks_used">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="file_path">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="start_lot_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="report_lot_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="inserted_workweek">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="inserted_workyear">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="UNC_windows_path">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;probe_wafer_summary.lot_no lot_no,
+&#x9;probe_wafer_summary.wafer_no wafer_no,
+&#x9;probe_wafer_summary.probe_step_code probe_step_code,
+&#x9;probe_wafer_summary.related_probe_step_code related_probe_step_code,
+&#x9;probe_wafer_summary.map_version map_version,
+&#x9;probe_wafer_summary.start_datetime start_datetime,
+&#x9;probe_wafer_summary.end_datetime end_datetime,
+&#x9;probe_wafer_summary.interface_no interface_no,
+&#x9;probe_wafer_summary.program_name program_name,
+&#x9;probe_wafer_summary.log_revision log_revision,
+&#x9;probe_wafer_summary.station_brief_name station_brief_name,
+&#x9;probe_wafer_summary.probe_card_no probe_card_no,
+&#x9;probe_wafer_summary.lot_start_workweek lot_start_workweek,
+&#x9;probe_wafer_summary.temperature_value temperature_value,
+&#x9;probe_wafer_summary.UIN_qty UIN_qty,
+&#x9;probe_wafer_summary.UPASS_qty UPASS_qty,
+&#x9;probe_wafer_summary.program_revision_no program_revision_no,
+&#x9;probe_wafer_summary.partial_summary_flag partial_summary_flag,
+&#x9;probe_wafer_summary.inserted_datetime inserted_datetime,
+&#x9;probe_wafer_summary.wafer_summary_text wafer_summary_text,
+&#x9;probe_wafer_summary.part_type_when_probed part_type_when_probed,
+&#x9;probe_wafer_summary.card_configuration_name card_configuration_name,
+&#x9;probe_wafer_summary.probe_location_name probe_location_name,
+&#x9;probe_wafer_summary.prober_type_name prober_type_name,
+&#x9;probe_wafer_summary.epoch_start_time epoch_start_time,
+&#x9;probe_wafer_summary.epoch_end_time epoch_end_time,
+&#x9;probe_wafer_summary.test_flow_name test_flow_name,
+&#x9;probe_wafer_summary.probe_wafer_summary_OID probe_wafer_summary_OID,
+&#x9;probe_wafer_summary.design_id design_id,
+&#x9;probe_wafer_summary.free_index_name1 free_index_name1,
+&#x9;probe_wafer_summary.free_index_name2 free_index_name2,
+&#x9;probe_wafer_summary.probe_wafer_version_no probe_wafer_version_no,
+&#x9;probe_wafer_summary.probe_process_id probe_process_id,
+&#x9;probe_wafer_summary.probe_run_id probe_run_id,
+&#x9;probe_wafer_summary.asset_OID asset_OID,
+&#x9;probe_wafer_summary.data_set_id data_set_id,
+&#x9;probe_wafer_summary.wafer_touchdown_count wafer_touchdown_count,
+&#x9;probe_wafer_summary.wafer_scribe wafer_scribe,
+&#x9;probe_wafer_summary.mfg_facility_no mfg_facility_no,
+&#x9;probe_wafer_summary.updated_datetime updated_datetime,
+&#x9;probe_wafer_summary.custom_crunch_datetime custom_crunch_datetime,
+&#x9;probe_wafer_summary.map_part_code map_part_code,
+&#x9;probe_wafer_summary.map_version_no map_version_no,
+&#x9;probe_wafer_summary.map_wafer_size map_wafer_size,
+&#x9;probe_wafer_summary.archive_datetime archive_datetime,
+&#x9;probe_wafer_summary.restore_flag restore_flag,
+&#x9;probe_wafer_summary.station_name station_name,
+&#x9;probe_wafer_summary.lot_id lot_id,
+&#x9;probe_wafer_summary.mfg_site_id mfg_site_id,
+&#x9;probe_wafer_summary.esdabin_datetime esdabin_datetime,
+&#x9;probe_wafer_summary.start_lot_key start_lot_key,
+&#x9;probe_wafer_summary.report_lot_id report_lot_id,
+&#x9;probe_wafer_summary.data_insertion_code data_insertion_code,
+&#x9;probe_wafer_summary.probecard_no probecard_no,
+&#x9;probe_wafer_summary.program_revision_id program_revision_id,
+&#x9;probe_wafer_summary.sw_release_id sw_release_id,
+&#x9;probe_wafer_summary.wafer_reprobe_count wafer_reprobe_count,
+&#x9;probe_wafer_summary.disk_blocks_used disk_blocks_used,
+&#x9;probe_wafer_summary.file_path file_path,
+&#x9;probe_wafer_summary.start_lot_version_no start_lot_version_no,
+&#x9;probe_wafer_summary.report_lot_version_no report_lot_version_no,
+&#x9;probe_wafer_summary.inserted_workweek inserted_workweek,
+&#x9;probe_wafer_summary.inserted_workyear inserted_workyear,
+&#x9;probe_wafer_summary.UNC_windows_path UNC_windows_path 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ProbeTracking/PRBSumIndexDSS/dbo/probe_wafer_summary probe_wafer_summary</attribute>
+  <attribute name="creationDate" type="LONG">1611039059334</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611039059334</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611039059334</attribute>
+</metadata>

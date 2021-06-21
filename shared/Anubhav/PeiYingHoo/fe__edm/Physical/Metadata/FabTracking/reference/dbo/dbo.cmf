@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="dbo" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/FabTracking/reference/dbo" type="CONTAINER" subtype="SCHEMA" changeToken="0">
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="autoAddChildren" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1611037735921</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611716055774</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611037735921</attribute>
+  <attribute name="selectionState" type="INTEGER">1</attribute>
+  <attribute name="userDeletedSet" type="SET">
+    <item type="NAME_TYPE_PAIR">
+      <name>EPM_auth_feature_view</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>EPM_auth_feature_view_group</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>EPM_auth_data_view_group</name>
+      <type>2</type>
+    </item>
+    <item type="NAME_TYPE_PAIR">
+      <name>EPM_auth_data_view</name>
+      <type>2</type>
+    </item>
+  </attribute>
+</metadata>

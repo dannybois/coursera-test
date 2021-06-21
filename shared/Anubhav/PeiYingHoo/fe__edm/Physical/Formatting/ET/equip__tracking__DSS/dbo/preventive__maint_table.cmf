@@ -1,0 +1,447 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="preventive_maint" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ET/equip_tracking_DSS/dbo/preventive_maint" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="equip_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_last_date_time" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_frequency_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_frequency_unit" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_unit_item" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_unit_item_char" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_current_count" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_calculation_mode" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_scheduled_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_due_count" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_warning_delta" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_critical_delta" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_reset_value" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_real_time_warning" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_real_time_due" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_real_time_critical" nullable="true">
+      <datatype type="STRING" minLength="3" maxLength="3"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_notification" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_duration" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_automation_run_threshold" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_by_system" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_modified_by_empno" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="process_list" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_run_code" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_allow_due_recalc" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="recipe_name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="post_reset_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_scheduled_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_maint_plan_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_maint_plan_item_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_maint_plan_operation_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_call_no" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_planned_due_date" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_counter_due_value" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_cycle_value" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="SAP_cycle_unit" nullable="true">
+      <datatype type="STRING" maxLength="6"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="equip_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="event_code_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_last_date_time">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_frequency_type" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_frequency_unit" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_usage_unit_item">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PM_usage_unit_item_char">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_usage_current_count">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_usage_calculation_mode">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_scheduled_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_due_count" nullable="false">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_warning_delta" nullable="false">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_critical_delta" nullable="false">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_reset_value">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_real_time_warning" nullable="false">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PM_real_time_due" nullable="false">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PM_real_time_critical" nullable="false">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="PM_notification" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_duration" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_automation_run_threshold" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="PM_modified_by_system" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_modified_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_modified_by_empno" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="process_list">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="PM_run_code" nullable="false">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="PM_allow_due_recalc">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="recipe_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="post_reset_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SAP_scheduled_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="SAP_maint_plan_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="SAP_maint_plan_item_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="SAP_maint_plan_operation_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="SAP_call_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="SAP_planned_due_date">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="SAP_counter_due_value">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="SAP_cycle_value">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="SAP_cycle_unit">
+        <datatype type="STRING" maxLength="6"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;preventive_maint.equip_OID equip_OID,
+&#x9;preventive_maint.event_code_id event_code_id,
+&#x9;preventive_maint.PM_last_date_time PM_last_date_time,
+&#x9;preventive_maint.PM_frequency_type PM_frequency_type,
+&#x9;preventive_maint.PM_frequency_unit PM_frequency_unit,
+&#x9;preventive_maint.PM_usage_unit_item PM_usage_unit_item,
+&#x9;preventive_maint.PM_usage_unit_item_char PM_usage_unit_item_char,
+&#x9;preventive_maint.PM_usage_current_count PM_usage_current_count,
+&#x9;preventive_maint.PM_usage_calculation_mode PM_usage_calculation_mode,
+&#x9;preventive_maint.PM_scheduled_datetime PM_scheduled_datetime,
+&#x9;preventive_maint.PM_due_count PM_due_count,
+&#x9;preventive_maint.PM_warning_delta PM_warning_delta,
+&#x9;preventive_maint.PM_critical_delta PM_critical_delta,
+&#x9;preventive_maint.PM_reset_value PM_reset_value,
+&#x9;preventive_maint.PM_real_time_warning PM_real_time_warning,
+&#x9;preventive_maint.PM_real_time_due PM_real_time_due,
+&#x9;preventive_maint.PM_real_time_critical PM_real_time_critical,
+&#x9;preventive_maint.PM_notification PM_notification,
+&#x9;preventive_maint.PM_duration PM_duration,
+&#x9;preventive_maint.PM_automation_run_threshold PM_automation_run_threshold,
+&#x9;preventive_maint.PM_OID PM_OID,
+&#x9;preventive_maint.PM_modified_by_system PM_modified_by_system,
+&#x9;preventive_maint.PM_modified_datetime PM_modified_datetime,
+&#x9;preventive_maint.PM_modified_by_empno PM_modified_by_empno,
+&#x9;preventive_maint.process_list process_list,
+&#x9;preventive_maint.PM_run_code PM_run_code,
+&#x9;preventive_maint.PM_allow_due_recalc PM_allow_due_recalc,
+&#x9;preventive_maint.recipe_name recipe_name,
+&#x9;preventive_maint.post_reset_flag post_reset_flag,
+&#x9;preventive_maint.SAP_scheduled_flag SAP_scheduled_flag,
+&#x9;preventive_maint.SAP_maint_plan_no SAP_maint_plan_no,
+&#x9;preventive_maint.SAP_maint_plan_item_no SAP_maint_plan_item_no,
+&#x9;preventive_maint.SAP_maint_plan_operation_no SAP_maint_plan_operation_no,
+&#x9;preventive_maint.SAP_call_no SAP_call_no,
+&#x9;preventive_maint.SAP_planned_due_date SAP_planned_due_date,
+&#x9;preventive_maint.SAP_counter_due_value SAP_counter_due_value,
+&#x9;preventive_maint.SAP_cycle_value SAP_cycle_value,
+&#x9;preventive_maint.SAP_cycle_unit SAP_cycle_unit 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint preventive_maint</attribute>
+  <attribute name="creationDate" type="LONG">1608002456570</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18069</attribute>
+  <attribute name="creatorUserName" type="STRING">boyin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1615430442496</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18069</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1608002456570</attribute>
+</metadata>

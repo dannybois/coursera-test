@@ -1,0 +1,128 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="event_code_history" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ET/equip_tracking_DSS/dbo/event_code_history" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="event_code_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="production_state_change_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="equip_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_start_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_end_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="sigma_run_id" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="record_status" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mod_dt" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/event_code_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="event_code_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="production_state_change_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="equip_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="event_code_start_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="event_code_end_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="sigma_run_id">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="event_code_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="record_status">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="mod_dt">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;event_code_history.event_code_id event_code_id,
+&#x9;event_code_history.production_state_change_OID production_state_change_OID,
+&#x9;event_code_history.equip_OID equip_OID,
+&#x9;event_code_history.event_code_start_datetime event_code_start_datetime,
+&#x9;event_code_history.event_code_end_datetime event_code_end_datetime,
+&#x9;event_code_history.sigma_run_id sigma_run_id,
+&#x9;event_code_history.event_code_OID event_code_OID,
+&#x9;event_code_history.record_status record_status,
+&#x9;event_code_history.mod_dt mod_dt 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/event_code_history event_code_history</attribute>
+  <attribute name="creationDate" type="LONG">1608002450199</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18069</attribute>
+  <attribute name="creatorUserName" type="STRING">boyin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1615430442172</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18069</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1608002450199</attribute>
+</metadata>

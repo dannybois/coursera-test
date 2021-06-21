@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="datatype_validation" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/datatype_validation" type="TABLE" subtype="DATABASE_TABLE" changeToken="0" tableType="TABLE">
+  <columns>
+    <column name="equip_item_datatype" nullable="false">
+      <datatype name="char" extendedName="char(20)" subType="DATASOURCE_TYPE" type="STRING" minLength="20" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="validation_type" nullable="false">
+      <datatype name="char" extendedName="char(20)" subType="DATASOURCE_TYPE" type="STRING" minLength="20" maxLength="20"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="validation_text" nullable="true">
+      <datatype name="char" extendedName="char(255)" subType="DATASOURCE_TYPE" type="STRING" minLength="255" maxLength="255"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DAT_system_name" nullable="true">
+      <datatype name="char" extendedName="char(50)" subType="DATASOURCE_TYPE" type="STRING" minLength="50" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DAT_version_name" nullable="true">
+      <datatype name="char" extendedName="char(50)" subType="DATASOURCE_TYPE" type="STRING" minLength="50" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DAT_service_name" nullable="true">
+      <datatype name="char" extendedName="char(50)" subType="DATASOURCE_TYPE" type="STRING" minLength="50" maxLength="50"/>
+      <attribute name="mandatory" type="BOOLEAN">false</attribute>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes>
+    <index name="PK_datatype_validation" type="PRIMARY_KEY" unique="true">
+      <indexColumn name="equip_item_datatype" sortOrder="ASCENDING"/>
+      <indexColumn name="validation_type" sortOrder="ASCENDING"/>
+    </index>
+  </indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <attribute name="c:0:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:1:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:2:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:3:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:4:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="c:5:mandatory" type="BOOLEAN">false</attribute>
+  <attribute name="creationDate" type="LONG">1613724939632</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">311550</attribute>
+  <attribute name="creatorUserName" type="STRING">phoo</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1616048464659</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">311550</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1613724939632</attribute>
+</metadata>

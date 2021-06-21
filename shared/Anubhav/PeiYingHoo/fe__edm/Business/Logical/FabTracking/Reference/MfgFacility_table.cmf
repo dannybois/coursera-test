@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="MfgFacility" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="mfg_facility_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_ID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_state" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_function" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_no" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/mfg_facility" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_facility_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_state">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_function">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_no">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    *
+FROM      
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/mfg_facility mfg_facility</attribute>
+  <attribute name="creationDate" type="LONG">1611803847566</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20128</attribute>
+  <attribute name="creatorUserName" type="STRING">phoo</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1612857196458</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">20128</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611803847566</attribute>
+</metadata>

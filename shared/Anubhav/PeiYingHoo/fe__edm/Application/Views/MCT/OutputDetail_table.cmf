@@ -1,0 +1,2396 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="OutputDetail" path="/shared/Anubhav/PeiYingHoo/fe_edm/Application/Views/MCT/OutputDetail" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="login_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_mfg_ww_seq_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_mfg_year_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_mfg_month_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_mfg_ww_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_work_week" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2147483668"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="login_year_month_work_week" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="62" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_mfg_ww_seq_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_mfg_year_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_mfg_month_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_mfg_ww_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_work_week" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2147483668"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="shipped_year_month_work_week" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="62" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="current_facility_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="origin_facility_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="product_family_name" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="series_name" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="trav_life_cycle_code" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="design_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="part_code" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="part_group_name" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_part_desc" nullable="true">
+      <datatype type="STRING" minLength="255" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="density_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="density_unit" nullable="true">
+      <datatype type="STRING" maxLength="10" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="gb_per_unit" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="width_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="width_unit" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="pre_rdl" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="pre_rdl_nomap" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bump_process" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_process_step" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="common_test_id" nullable="true">
+      <datatype type="STRING" maxLength="16" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="density_category" nullable="true">
+      <datatype type="STRING" maxLength="16" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hd_col" nullable="true">
+      <datatype type="STRING" maxLength="76" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="qual_flag" nullable="true">
+      <datatype type="STRING" minLength="5" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="eng_flag" nullable="true">
+      <datatype type="STRING" minLength="4" maxLength="5" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="swr_flag" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_type" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="traveler_name" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="prb_goal_cat" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="prb_goal_subcat" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ship_map_name" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="product_grade_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="ship_dest_code" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="partials" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="probe_post_rdl_lot" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="prb_ns_process_flag" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="probe_reconfig_lot" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="offload_return" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="offload_lot" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="probe_catalog_lot" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="split_parent_lot" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="npi_category_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="npi_category_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="smart_sampling_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="smart_sampling_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wlrscrapww_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wlrscrapww_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_type_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_type_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="f11_swap_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="f11_swap_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="f16_swap_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="f16_swap_value" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="box_type_id" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="catalog_reason" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scrap_wafer_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scrap_qdr_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="continue_wafer_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="continue_qdr_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_wafer_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_qdr_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonus_wafer_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonus_qdr_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="document_wafer_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="document_qdr_count" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scrap_wafer_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scrap_qdr_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="continue_wafer_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="continue_qdr_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_wafer_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_qdr_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonus_wafer_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonus_qdr_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="document_wafer_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="document_qdr_count_filtered" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fab_proc_code" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="parent_lot_id" nullable="true">
+      <datatype type="STRING" maxLength="20" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wafer_size" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wafer_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wafer_start" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="good_die_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="preprobe_die_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="spectek_first_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="spectek_second_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="spectek_third_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="spectek_fourth_pass" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="spectek_fifth_pass" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wla_c1plus_good_die_qty_desc" nullable="true">
+      <datatype type="STRING" maxLength="255" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wla_c1plus_good_die_qty_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fd" nullable="true">
+      <datatype type="INTEGER"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="die_shipped_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="goal_group_name" nullable="true">
+      <datatype type="STRING" maxLength="50" trailingSpaces="false"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="lot_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="seq_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_attr_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="updated_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="user_ID">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+      <element name="system_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="corr_item_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_desc">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_datatype">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_desc">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="revision_emp_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="revision_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="specs">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_default_value">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="oos_action">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="value_cnt">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_value_cnt">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="nickname_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="auto_nickname_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_length">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="datatype_field_precision">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="corr_item_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="calc_ID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="collection_type">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="send_to_spc">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="purpose">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="standard_corr_item_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_state">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="corr_item_site">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="corr_item_replication_dest">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotStatus" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="CurrentMfgFacilityID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="hold_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="staged_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="trav_step_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="OwnedMfgFacilityID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="fab_vendor_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="fab_lot_desig_code">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="fab_proc_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="lot_in_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_split_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_merged_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_scrapped_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_bonused_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_reworked_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_current_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="parent_lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="merged_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="bonused_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="bonused_wafer_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="lot_removed_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="reworked_step_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="rework_level_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="step_hold_time_seconds_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_start_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="state_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="lot_started_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="QDR_documented_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="catalog_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="total_hold_time_seconds_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="tracked_in_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="tracked_in_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="location_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="target_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="target_wafers_out_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="target_done_at_step_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="used_as_target_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="current_traveler_page">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="SWR_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="QDR_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="baseline_lot_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="updated_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="wafer_size">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="full_lot_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="scheduling_state_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="equip_id">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="days_to_ship_value">
+        <datatype type="FLOAT" minValue="1.1754943508222875E-38" maxValue="3.4028234663852886E38"/>
+      </element>
+      <element name="photo_routing_code">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="lot_priority_status">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="scheduling_comment">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="rework_QDR_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="backup_lot_stack_counter">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="die_shipped_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="location_state">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="step_staged_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="step_committed_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="step_running_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="step_processed_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="original_lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/WaferAttr" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="seq_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="wafer_scribe">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="wafer_attr_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="updated_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="updated_username">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="system_id">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="corr_item_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_desc">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_datatype">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_desc">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="revision_emp_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="revision_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="specs">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_default_value">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="oos_action">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="value_cnt">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_value_cnt">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="nickname_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="auto_nickname_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_length">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="datatype_field_precision">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="corr_item_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="calc_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="collection_type">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="send_to_spc">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="purpose">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="standard_corr_item_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_state">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="corr_item_site">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="corr_item_replication_dest">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabPlaning/FPPartialDensity" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="density_category">
+        <datatype type="STRING" maxLength="16"/>
+      </element>
+      <element name="ratio">
+        <datatype type="DECIMAL" maxDigits="4" maxFractionalDigits="3"/>
+      </element>
+      <element name="full_density_part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="density">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="mfg_process_step">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabPlaning/FPPartialDensityTestID" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="common_test_ID">
+        <datatype type="STRING" maxLength="16"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/CatalogLotHistory" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="box_type_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="reason_text">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="fab_step_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="max_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_wafer_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="grace_day_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="enable_min_maturity_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="allow_checkout_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="match_reticles_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="allow_merge_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="match_traveler_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="archive_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="dst_traveler_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="dst_step_name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="min_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="PA_ID">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/PAAttrHistory" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_ID">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+      <element name="attr_def_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="attr_value">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PA_attr_event_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="history_insert_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="archive_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/ShipLotHistory" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="lot_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_area_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_facility_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="current_subarea_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="design_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="dispo_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="fab_designator_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="good_die_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="in_probe">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="location_datetime">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="login_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="lot_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="offload_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="offload_return">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="origin_facility_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="package_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="part">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="partials">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="partials_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="prb_goal_cat">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_goal_subcat">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_goal_subcat_dflt">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="prb_ns_process_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="preprobe_die_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="probe_catalog_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_post_rdl_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_reconfig_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="probe_ship_lot_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="product_grade_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="report_lot_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="sap_die_ship_qty">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="ship_dest_code">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="ship_map_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="shipped_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="spectek_first_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_fourth_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_second_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="spectek_third_pass">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="split_parent_lot">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="step">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="swr_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="tracked_into_step">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="trackin_required">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="trackin_status">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="tracking_status">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="traveler_facility_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="traveler_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="wafer_size">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafmove_pending_flag">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="history_insert_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="current_site_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="archive_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbSumIndexDSS/ProbeWaferSummary" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="lot_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_no">
+        <datatype type="STRING" minLength="8" maxLength="8"/>
+      </element>
+      <element name="probe_step_code">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="related_probe_step_code">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="map_version">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="start_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="end_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="interface_no">
+        <datatype type="STRING" minLength="3" maxLength="3"/>
+      </element>
+      <element name="program_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="log_revision">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="station_brief_name">
+        <datatype type="STRING" minLength="4" maxLength="4"/>
+      </element>
+      <element name="probe_card_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="lot_start_workweek">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="temperature_value">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="UIN_qty">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="UPASS_qty">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="program_revision_no">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="partial_summary_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="inserted_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="wafer_summary_text">
+        <datatype type="STRING" maxLength="2147483647"/>
+      </element>
+      <element name="part_type_when_probed">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="card_configuration_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_location_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="prober_type_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="epoch_start_time">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      </element>
+      <element name="epoch_end_time">
+        <datatype type="DECIMAL" maxDigits="10" maxFractionalDigits="0"/>
+      </element>
+      <element name="test_flow_name">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_wafer_summary_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="free_index_name1">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="free_index_name2">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_wafer_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="probe_process_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="probe_run_id">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="asset_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="data_set_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="wafer_touchdown_count">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="0"/>
+      </element>
+      <element name="wafer_scribe">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_facility_no">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="updated_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="custom_crunch_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="map_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="map_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="map_wafer_size">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="archive_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="restore_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="station_name">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_site_id">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="esdabin_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="start_lot_key">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="report_lot_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="data_insertion_code">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="probecard_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="program_revision_id">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="sw_release_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="wafer_reprobe_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="disk_blocks_used">
+        <datatype type="INTEGER"/>
+      </element>
+      <element name="file_path">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="start_lot_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="report_lot_version_no">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="inserted_workweek">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="inserted_workyear">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="UNC_windows_path">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbWwProcessDss/GoalCategoryDef" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="projtn_type">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="goal_category_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="goal_subcategory_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="goal_category_precedence_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="goal_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/QDR/QDRLot" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="QDR_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="lot_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="QDR_trav_step_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="process_code">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="qty_stage_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="designator">
+        <datatype type="STRING" minLength="5" maxLength="5"/>
+      </element>
+      <element name="quality_affected_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="total_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="affected_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="scrap_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="continue_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="rework_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="bonus_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="document_wafer_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="all_wafers_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="wafer_record_count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="documentation_only_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="creation_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="revision_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="rework_level">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="deviation_step_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPPartInPartGroup" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="trav_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_status">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="wafer_desc">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPTravAttr" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="attribute_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_status">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="trav_comment">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="attribute_value">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartAttr" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="attribute_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="attribute_value">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartSpec" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="base_part_no">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="mfg_part_desc">
+        <datatype type="STRING" minLength="255" maxLength="255"/>
+      </element>
+      <element name="product_family_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="design_id">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="total_density_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="total_density_unit">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="density_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="density_unit">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="width_value">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="width_unit">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="marketing_part_no">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgYearMonthWW" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_ww_seq_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="mfg_year_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="mfg_month_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="mfg_ww_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="mfg_ww_begin_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="mfg_ww_end_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/****** 
+
+MCT ADS MPMO21 FE Operations Dashboard ETL / Output
+Composed by JHANSON - 2021-02-11
+Escalate questions to MCT_ADS@micron.com
+
+Server: SILDVDEVL01
+Database: Application/Views/OutputDetail
+
+
+******/
+
+SELECT
+-- TIME
+ship_lot_history.login_datetime,
+ship_lot_history.login_mfg_ww_seq_no,
+ship_lot_history.login_mfg_year_no,
+ship_lot_history.login_mfg_month_no,
+ship_lot_history.login_mfg_ww_no,
+ship_lot_history.login_work_week,
+ship_lot_history.login_year_month_work_week,
+
+ship_lot_history.shipped_datetime,
+ship_lot_history.shipped_mfg_ww_seq_no,
+ship_lot_history.shipped_mfg_year_no,
+ship_lot_history.shipped_mfg_month_no,
+ship_lot_history.shipped_mfg_ww_no,
+ship_lot_history.shipped_work_week,
+ship_lot_history.shipped_year_month_work_week,
+
+-- FAB
+ship_lot_history.current_facility_id,
+ship_lot_history.origin_facility_id,
+
+-- PART
+RTRIM(TRAV_FAMILY_CODE.attribute_value) AS product_family_name,
+RTRIM(TRAV_PROCESS_CODE.attribute_value) AS series_name,
+RTRIM(TRAV_LIFE_CYCLE_CODE.attribute_value) AS trav_life_cycle_code,
+
+ship_lot_history.design_id,
+ship_lot_history.part AS part_code,
+RTRIM(FPPartInPartGroup.part_group_name) AS part_group_name,
+
+MfgPartSpec.mfg_part_desc AS mfg_part_desc,
+MfgPartSpec.total_density_value AS density_value,
+RTRIM(MfgPartSpec.total_density_unit) AS density_unit,
+CASE
+WHEN MfgPartSpec.total_density_unit IN (
+&apos;UNKNOWN&apos;
+)
+THEN NULL
+
+ELSE 
+CASE
+WHEN RTRIM(MfgPartSpec.total_density_unit) = &apos;M&apos; THEN 1048576 / 1073741824
+
+WHEN RTRIM(MfgPartSpec.total_density_unit) = &apos;G&apos; THEN 1073741824 / 1073741824
+
+WHEN RTRIM(MfgPartSpec.total_density_unit) = &apos;T&apos; THEN 1099511627776 / 1073741824
+
+WHEN RTRIM(MfgPartSpec.total_density_unit) = &apos;E&apos; THEN 1152921504606847000 / 1073741824
+
+ELSE 0
+END
+END AS gb_per_unit,
+MfgPartSpec.width_value,
+MfgPartSpec.width_unit,
+
+pre_rdl.attribute_value AS pre_rdl,
+pre_rdl_nomap.attribute_value AS pre_rdl_nomap,
+bump_process.attribute_value AS bump_process,
+
+fab_planning.mfg_process_step,
+fab_planning.common_test_id,
+fab_planning.density_category,
+fab_planning.hd_col,
+
+-- [MCT_Metrics][Output][LIP_DID_Config] QUAL/NON QUAL
+&apos;FALSE&apos; AS qual_flag,
+CASE WHEN UPPER(FPPartInPartGroup.part_group_name) LIKE &apos;%ENG%&apos; THEN &apos;TRUE&apos; ELSE &apos;FALSE&apos; END AS eng_flag,
+
+-- LOT
+ship_lot_history.lot_id,
+ship_lot_history.swr_flag,
+ship_lot_history.lot_type,
+ship_lot_history.traveler_name,
+ship_lot_history.prb_goal_cat,
+ship_lot_history.prb_goal_subcat,
+ship_lot_history.ship_map_name,
+ship_lot_history.product_grade_id,
+ship_lot_history.ship_dest_code,
+ship_lot_history.partials,
+ship_lot_history.probe_post_rdl_lot,
+ship_lot_history.prb_ns_process_flag,
+ship_lot_history.probe_reconfig_lot,
+ship_lot_history.offload_return,
+ship_lot_history.offload_lot,
+ship_lot_history.probe_catalog_lot,
+ship_lot_history.split_parent_lot,
+
+npi_category.corr_item_desc AS npi_category_desc,
+npi_category.lot_attr_value AS npi_category_value,
+
+smart_sampling.corr_item_desc AS smart_sampling_desc,
+smart_sampling.lot_attr_value AS smart_sampling_value,
+
+wlrscrapww.corr_item_desc AS wlrscrapww_desc,
+wlrscrapww.lot_attr_value AS wlrscrapww_value,
+
+lot_type.corr_item_desc AS lot_type_desc,
+lot_type.lot_attr_value AS lot_type_value,
+
+f11_swap.corr_item_desc AS f11_swap_desc,
+f11_swap.lot_attr_value AS f11_swap_value,
+
+f16_swap.corr_item_desc AS f16_swap_desc,
+f16_swap.lot_attr_value AS f16_swap_value,
+
+CatalogLotHistory.box_type_id,
+CatalogLotHistory.reason_text AS catalog_reason,
+
+ISNULL(qdr_stats.scrap_wafer_count, 0, qdr_stats.scrap_wafer_count) AS scrap_wafer_count,
+ISNULL(qdr_stats.scrap_qdr_count, 0, qdr_stats.scrap_qdr_count) AS scrap_qdr_count,
+ISNULL(qdr_stats.continue_wafer_count, 0, qdr_stats.continue_wafer_count) AS continue_wafer_count,
+ISNULL(qdr_stats.continue_qdr_count, 0, qdr_stats.continue_qdr_count) AS continue_qdr_count,
+ISNULL(qdr_stats.rework_wafer_count, 0, qdr_stats.rework_wafer_count) AS rework_wafer_count,
+ISNULL(qdr_stats.rework_qdr_count, 0, qdr_stats.rework_qdr_count) AS rework_qdr_count,
+ISNULL(qdr_stats.bonus_wafer_count, 0, qdr_stats.bonus_wafer_count) AS bonus_wafer_count,
+ISNULL(qdr_stats.bonus_qdr_count, 0, qdr_stats.bonus_qdr_count) AS bonus_qdr_count,
+ISNULL(qdr_stats.document_wafer_count, 0, qdr_stats.document_wafer_count) AS document_wafer_count,
+ISNULL(qdr_stats.document_qdr_count, 0, qdr_stats.document_qdr_count) AS document_qdr_count,
+
+CASE WHEN ship_lot_history.origin_facility_id IN (&apos;FAB 10&apos;) AND wlrscrapww.corr_item_desc NOT IN (&apos;WLRSCRAPWW&apos;) 
+THEN 0 ELSE ISNULL(qdr_stats_filtered.scrap_wafer_count, 0, qdr_stats_filtered.scrap_wafer_count) END AS scrap_wafer_count_filtered,
+
+CASE WHEN ship_lot_history.origin_facility_id IN (&apos;FAB 10&apos;) AND wlrscrapww.corr_item_desc NOT IN (&apos;WLRSCRAPWW&apos;) 
+THEN 0 ELSE ISNULL(qdr_stats_filtered.scrap_qdr_count, 0, qdr_stats_filtered.scrap_qdr_count) END AS scrap_qdr_count_filtered,
+
+ISNULL(qdr_stats_filtered.continue_wafer_count, 0, qdr_stats_filtered.continue_wafer_count) AS continue_wafer_count_filtered,
+ISNULL(qdr_stats_filtered.continue_qdr_count, 0, qdr_stats_filtered.continue_qdr_count) AS continue_qdr_count_filtered,
+ISNULL(qdr_stats_filtered.rework_wafer_count, 0, qdr_stats_filtered.rework_wafer_count) AS rework_wafer_count_filtered,
+ISNULL(qdr_stats_filtered.rework_qdr_count, 0, qdr_stats_filtered.rework_qdr_count) AS rework_qdr_count_filtered,
+
+CASE WHEN ship_lot_history.origin_facility_id IN (&apos;FAB 10&apos;) AND wlrscrapww.corr_item_desc NOT IN (&apos;WLRSCRAPWW&apos;) 
+THEN 0 ELSE ISNULL(qdr_stats_filtered.bonus_wafer_count, 0, qdr_stats_filtered.bonus_wafer_count) END AS bonus_wafer_count_filtered,
+
+CASE WHEN ship_lot_history.origin_facility_id IN (&apos;FAB 10&apos;) AND wlrscrapww.corr_item_desc NOT IN (&apos;WLRSCRAPWW&apos;) 
+THEN 0 ELSE ISNULL(qdr_stats_filtered.bonus_qdr_count, 0, qdr_stats_filtered.bonus_qdr_count) END AS bonus_qdr_count_filtered,
+
+ISNULL(qdr_stats_filtered.document_wafer_count, 0, qdr_stats_filtered.document_wafer_count) AS document_wafer_count_filtered,
+ISNULL(qdr_stats_filtered.document_qdr_count, 0, qdr_stats_filtered.document_qdr_count) AS document_qdr_count_filtered,
+
+RTRIM(FabLotStatus.fab_proc_code) AS fab_proc_code,
+RTRIM(FabLotStatus.parent_lot_id) AS parent_lot_id,
+
+-- WAFER
+ship_lot_history.wafer_size,
+ship_lot_history.wafer_count,
+ISNULL(qdr_stats.scrap_wafer_count, 0, qdr_stats.scrap_wafer_count) + ship_lot_history.wafer_count AS wafer_start,
+
+-- DIE
+ISNULL(ship_lot_history.good_die_count, 0, ship_lot_history.good_die_count) AS good_die_count,
+ISNULL(ship_lot_history.preprobe_die_qty, 0, ship_lot_history.preprobe_die_qty) AS preprobe_die_qty,
+ISNULL(ship_lot_history.spectek_first_pass, 0, ship_lot_history.spectek_first_pass) AS spectek_first_pass,
+ISNULL(ship_lot_history.spectek_second_pass, 0, ship_lot_history.spectek_second_pass) AS spectek_second_pass,
+ISNULL(ship_lot_history.spectek_third_pass, 0, ship_lot_history.spectek_third_pass) AS spectek_third_pass,
+ISNULL(ship_lot_history.spectek_fourth_pass, 0, ship_lot_history.spectek_fourth_pass) AS spectek_fourth_pass,
+
+ISNULL(spectek_fifth_pass.spectek_fifth_pass, 0, spectek_fifth_pass.spectek_fifth_pass) AS spectek_fifth_pass,
+
+wla_c1plus_good_die_qty.wla_c1plus_good_die_qty_desc,
+CAST(ISNULL(wla_c1plus_good_die_qty.wla_c1plus_good_die_qty_value, 0, wla_c1plus_good_die_qty.wla_c1plus_good_die_qty_value) AS INT) AS wla_c1plus_good_die_qty_value,
+
+ISNULL(fd.fd, 0, fd.fd) AS fd,
+
+FabLotStatus.die_shipped_qty,
+
+--0 AS hd,
+
+-- DIE_OUT_WITHOUT_SPECTEK
+--0 AS die_out_without_spectek,
+-- DIE_OUT_WITH_SPECTEK
+--0 AS die_out_spectek,
+-- TOTAL_DIE_OUT
+--0 AS total_die_out,
+
+-- GB_OUT_WITHOUT_SPECTEK
+--0 AS gb_out_without_spectek,
+-- GB_OUT_WITH_SPECTEK
+--0 AS gb_out_spectek,
+-- TOTAL_GB_OUT
+--0 AS total_gb_out,
+
+-- OTHER
+ship_lot_history.goal_group_name
+
+FROM (
+SELECT
+-- TIME
+ShipLotHistory.login_datetime,
+ShipLotHistory.shipped_datetime,
+
+-- &apos;login_work_week&apos; FROM &apos;MfgYearMonthWW&apos;
+LoginMfgYearMonthWW.mfg_ww_seq_no AS login_mfg_ww_seq_no,
+LoginMfgYearMonthWW.mfg_year_no AS login_mfg_year_no,
+LoginMfgYearMonthWW.mfg_month_no AS login_mfg_month_no,
+LoginMfgYearMonthWW.mfg_ww_no AS login_mfg_ww_no,
+CONCAT(LoginMfgYearMonthWW.mfg_year_no, CONCAT(&apos;-&apos;, LPAD(LoginMfgYearMonthWW.mfg_ww_no, 2, &apos;0&apos;))) AS login_work_week,
+CONCAT(LoginMfgYearMonthWW.mfg_year_no, CONCAT(&apos;_&apos;, CONCAT(LoginMfgYearMonthWW.mfg_month_no, CONCAT(&apos;_&apos;, LoginMfgYearMonthWW.mfg_ww_no)))) AS login_year_month_work_week,
+-- &apos;shipped_work_week&apos; FROM &apos;MfgYearMonthWW&apos;
+ShippedMfgYearMonthWW.mfg_ww_seq_no AS shipped_mfg_ww_seq_no,
+ShippedMfgYearMonthWW.mfg_year_no AS shipped_mfg_year_no,
+ShippedMfgYearMonthWW.mfg_month_no AS shipped_mfg_month_no,
+ShippedMfgYearMonthWW.mfg_ww_no AS shipped_mfg_ww_no,
+CONCAT(ShippedMfgYearMonthWW.mfg_year_no, CONCAT(&apos;-&apos;, LPAD(ShippedMfgYearMonthWW.mfg_ww_no, 2, &apos;0&apos;))) AS shipped_work_week,
+CONCAT(ShippedMfgYearMonthWW.mfg_year_no, CONCAT(&apos;_&apos;, CONCAT(ShippedMfgYearMonthWW.mfg_month_no, CONCAT(&apos;_&apos;, ShippedMfgYearMonthWW.mfg_ww_no)))) AS shipped_year_month_work_week,
+
+-- FAB
+RTRIM(ShipLotHistory.current_facility_id) AS current_facility_id,
+RTRIM(ShipLotHistory.origin_facility_id) AS origin_facility_id,
+
+-- PARTS + DESIGNS
+RTRIM(ShipLotHistory.design_id) AS design_id,
+RTRIM(ShipLotHistory.part) AS part,
+
+-- LOT
+RTRIM(ShipLotHistory.lot_id) AS lot_id,
+RTRIM(ShipLotHistory.swr_flag) AS swr_flag,
+RTRIM(ShipLotHistory.lot_type) AS lot_type,
+RTRIM(ShipLotHistory.traveler_name) AS traveler_name,
+RTRIM(ShipLotHistory.prb_goal_cat) AS prb_goal_cat,
+RTRIM(ShipLotHistory.prb_goal_subcat) AS prb_goal_subcat,
+RTRIM(ShipLotHistory.ship_map_name) AS ship_map_name,
+RTRIM(ShipLotHistory.product_grade_id) AS product_grade_id,
+RTRIM(ShipLotHistory.ship_dest_code) AS ship_dest_code,
+RTRIM(ShipLotHistory.partials) AS partials,
+RTRIM(ShipLotHistory.probe_post_rdl_lot) AS probe_post_rdl_lot,
+RTRIM(ShipLotHistory.prb_ns_process_flag) AS prb_ns_process_flag,
+RTRIM(ShipLotHistory.probe_reconfig_lot) AS probe_reconfig_lot,
+RTRIM(ShipLotHistory.offload_return) AS offload_return,
+RTRIM(ShipLotHistory.offload_lot) AS offload_lot,
+RTRIM(ShipLotHistory.probe_catalog_lot) AS probe_catalog_lot,
+RTRIM(ShipLotHistory.split_parent_lot) AS split_parent_lot,
+
+-- WAFER
+ShipLotHistory.wafer_size,
+ISNULL(ShipLotHistory.wafer_count, 0, ShipLotHistory.wafer_count) AS wafer_count,
+
+-- DIE
+ISNULL(ShipLotHistory.good_die_count, 0, ShipLotHistory.good_die_count) AS good_die_count,
+ISNULL(ShipLotHistory.preprobe_die_qty, 0, ShipLotHistory.preprobe_die_qty) AS preprobe_die_qty,
+ISNULL(ShipLotHistory.spectek_first_pass, 0, ShipLotHistory.spectek_first_pass) AS spectek_first_pass,
+ISNULL(ShipLotHistory.spectek_second_pass, 0, ShipLotHistory.spectek_second_pass) AS spectek_second_pass,
+ISNULL(ShipLotHistory.spectek_third_pass, 0, ShipLotHistory.spectek_third_pass) AS spectek_third_pass,
+ISNULL(ShipLotHistory.spectek_fourth_pass, 0, ShipLotHistory.spectek_fourth_pass) AS spectek_fourth_pass,
+
+-- OTHER
+RTRIM(GoalCategoryDef.goal_group_name) AS goal_group_name
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/ShipLotHistory ShipLotHistory
+
+-- TIME
+-- login_work_week
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgYearMonthWW LoginMfgYearMonthWW
+ON ShipLotHistory.login_datetime BETWEEN LoginMfgYearMonthWW.mfg_ww_begin_datetime AND LoginMfgYearMonthWW.mfg_ww_end_datetime
+
+-- shipped_work_week
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgYearMonthWW ShippedMfgYearMonthWW
+ON ShipLotHistory.shipped_datetime BETWEEN ShippedMfgYearMonthWW.mfg_ww_begin_datetime AND ShippedMfgYearMonthWW.mfg_ww_end_datetime
+
+-- OTHER
+-- probe goals
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbWwProcessDss/GoalCategoryDef GoalCategoryDef
+ON GoalCategoryDef.goal_category_name = ShipLotHistory.prb_goal_cat
+AND GoalCategoryDef.goal_subcategory_name = ShipLotHistory.prb_goal_subcat
+
+-- troubleshooting only
+--WHERE
+--CONCAT(ShippedMfgYearMonthWW.mfg_year_no, CONCAT(&apos;-&apos;, LPAD(ShippedMfgYearMonthWW.mfg_ww_no, 2, &apos;0&apos;))) = &apos;2021-04&apos;
+
+) ship_lot_history
+
+-- PART
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPPartInPartGroup AS FPPartInPartGroup
+ON FPPartInPartGroup.part_code = ship_lot_history.part
+AND FPPartInPartGroup.trav_status IN (&apos;ACTIVE&apos;)
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPTravAttr AS TRAV_FAMILY_CODE
+ON TRAV_FAMILY_CODE.trav_name = FPPartInPartGroup.trav_name
+AND TRAV_FAMILY_CODE.attribute_name = &apos;TRAV_FAMILY_CODE&apos;
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPTravAttr AS TRAV_PROCESS_CODE
+ON TRAV_PROCESS_CODE.trav_name = FPPartInPartGroup.trav_name
+AND TRAV_PROCESS_CODE.attribute_name = &apos;TRAV_PROCESS_CODE&apos;
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/FPTravAttr AS TRAV_LIFE_CYCLE_CODE
+ON TRAV_LIFE_CYCLE_CODE.trav_name = FPPartInPartGroup.trav_name
+AND TRAV_LIFE_CYCLE_CODE.attribute_name = &apos;TRAV_LIFE_CYCLE_CODE&apos;
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartSpec MfgPartSpec
+ON MfgPartSpec.mfg_part_code = FPPartInPartGroup.part_code
+
+-- fab lot planning
+LEFT OUTER JOIN (
+
+SELECT
+RTRIM(FPPartialDensity.mfg_facility_ID) AS mfg_facility_ID,
+RTRIM(FPPartialDensity.design_id) AS design_id,
+RTRIM(FPPartialDensity.mfg_process_step) AS mfg_process_step,
+RTRIM(FPPartialDensityTestID.common_test_id) AS common_test_id,
+RTRIM(FPPartialDensity.density_category) AS density_category,
+CONCAT(CONCAT(RTRIM(FPPartialDensity.design_id), RTRIM(FPPartialDensity.mfg_process_step)), RTRIM(FPPartialDensityTestID.common_test_id)) AS hd_col
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabPlaning/FPPartialDensity FPPartialDensity
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabPlaning/FPPartialDensityTestID FPPartialDensityTestID
+ON FPPartialDensityTestID.part_group_name = RTRIM(FPPartialDensity.part_group_name)
+AND FPPartialDensityTestID.mfg_facility_ID = RTRIM(FPPartialDensityTestID.mfg_facility_ID)
+
+WHERE FPPartialDensity.density_category IN (
+&apos;Partial Density&apos;
+)
+
+) fab_planning
+ON fab_planning.design_id = RTRIM(ship_lot_history.design_id)
+AND fab_planning.mfg_facility_ID = RTRIM(ship_lot_history.current_facility_id)
+
+-- part attribute: &apos;RDL PROCESS REQUIRED&apos;
+LEFT OUTER JOIN (
+
+SELECT
+RTRIM(MfgPartAttr.mfg_part_code) AS mfg_part_code,
+RTRIM(MfgPartAttr.attribute_value) AS attribute_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartAttr MfgPartAttr
+
+WHERE MfgPartAttr.attribute_name IN (
+&apos;RDL PROCESS REQUIRED&apos;
+)
+
+GROUP BY MfgPartAttr.mfg_part_code,
+MfgPartAttr.attribute_value
+
+) pre_rdl
+ON pre_rdl.mfg_part_code = RTRIM(FPPartInPartGroup.part_code)
+
+-- part attribute: &apos;PROBE NO MAP FLAG&apos;
+LEFT OUTER JOIN (
+
+SELECT
+RTRIM(MfgPartAttr.mfg_part_code) AS mfg_part_code,
+RTRIM(MfgPartAttr.attribute_value) AS attribute_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartAttr MfgPartAttr
+
+WHERE MfgPartAttr.attribute_name IN (
+&apos;PROBE NO MAP FLAG&apos;
+)
+
+GROUP BY MfgPartAttr.mfg_part_code,
+MfgPartAttr.attribute_value
+
+) pre_rdl_nomap
+ON pre_rdl_nomap.mfg_part_code = RTRIM(FPPartInPartGroup.part_code)
+
+-- part attribute: &apos;BUMP PROCESS APPLIED&apos;
+LEFT OUTER JOIN (
+
+SELECT
+RTRIM(MfgPartAttr.mfg_part_code) AS mfg_part_code,
+RTRIM(MfgPartAttr.attribute_value) AS attribute_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/Reference/MfgPartAttr MfgPartAttr
+
+WHERE MfgPartAttr.attribute_name IN (
+&apos;BUMP PROCESS APPLIED&apos;
+)
+
+GROUP BY MfgPartAttr.mfg_part_code,
+MfgPartAttr.attribute_value
+
+) bump_process
+ON bump_process.mfg_part_code = RTRIM(FPPartInPartGroup.part_code)
+
+-- LOT
+-- lot attribute: &apos;NPI CATEGORY&apos;
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;NPI CATEGORY&apos;
+)
+
+) npi_category
+ON npi_category.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- lot attribute: &apos;SMART SAMPLE&apos;
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;SMART SAMPLE&apos;
+)
+
+) smart_sampling
+ON smart_sampling.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- lot attribute: ‘WLRSCRAPWW’
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;WLRSCRAPWW&apos;
+)
+
+) wlrscrapww
+ON wlrscrapww.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- lot attribute: ‘LOT TYPE’
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;LOT TYPE&apos;
+)
+
+) lot_type
+ON lot_type.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- lot attribute: ‘F11_SWAP’
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;F11_SWAP&apos;
+)
+
+) f11_swap
+ON f11_swap.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- lot attribute: ‘F16_SWAP’
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(FabLotAttrValue.lot_id) AS lot_id,
+RTRIM(FabLotAttrValue.corr_item_desc) AS corr_item_desc,
+RTRIM(FabLotAttrValue.lot_attr_value) AS lot_attr_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;F16_SWAP&apos;
+)
+
+) f16_swap
+ON f16_swap.lot_id = RTRIM(ship_lot_history.lot_id)
+
+
+LEFT OUTER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/CatalogLotHistory CatalogLotHistory
+ON RTRIM(CatalogLotHistory.PA_ID) = RTRIM(ship_lot_history.lot_id)
+
+LEFT OUTER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotStatus FabLotStatus
+ON FabLotStatus.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- WAFER
+-- qdr stats
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(QDRLot.lot_no) AS lot_id,
+SUM(QDRLot.scrap_wafer_count) AS scrap_wafer_count,
+SUM(
+CASE WHEN QDRLot.scrap_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS scrap_qdr_count,
+SUM(QDRLot.continue_wafer_count) AS continue_wafer_count,
+SUM(
+CASE WHEN QDRLot.continue_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS continue_qdr_count,
+SUM(QDRLot.rework_wafer_count) AS rework_wafer_count,
+SUM(
+CASE WHEN QDRLot.rework_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS rework_qdr_count,
+SUM(QDRLot.bonus_wafer_count) AS bonus_wafer_count,
+SUM(
+CASE WHEN QDRLot.bonus_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS bonus_qdr_count,
+SUM(QDRLot.document_wafer_count) AS document_wafer_count,
+SUM(
+CASE WHEN QDRLot.document_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS document_qdr_count
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/QDR/QDRLot QDRLot
+
+GROUP BY
+QDRLot.lot_no
+
+) qdr_stats
+ON qdr_stats.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- qdr stats filtered
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(QDRLot.lot_no) AS lot_id,
+SUM(QDRLot.scrap_wafer_count) AS scrap_wafer_count,
+SUM(
+CASE WHEN QDRLot.scrap_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS scrap_qdr_count,
+SUM(QDRLot.continue_wafer_count) AS continue_wafer_count,
+SUM(
+CASE WHEN QDRLot.continue_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS continue_qdr_count,
+SUM(QDRLot.rework_wafer_count) AS rework_wafer_count,
+SUM(
+CASE WHEN QDRLot.rework_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS rework_qdr_count,
+SUM(QDRLot.bonus_wafer_count) AS bonus_wafer_count,
+SUM(
+CASE WHEN QDRLot.bonus_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS bonus_qdr_count,
+SUM(QDRLot.document_wafer_count) AS document_wafer_count,
+SUM(
+CASE WHEN QDRLot.document_wafer_count &gt; 0 THEN 1 ELSE 0 END
+) AS document_qdr_count
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/QDR/QDRLot QDRLot
+
+WHERE QDRLot.process_code NOT IN (
+&apos;NS&apos;,
+&apos;NP&apos;
+)
+AND QDRLot.lot_no NOT IN (
+
+SELECT
+FabLotAttrValue.lot_id
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/QDR/QDRLot QDRLot
+ON QDRLot.lot_no = FabLotAttrValue.lot_id
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;PROBE CATALOG LOT&apos;
+)
+AND FabLotAttrValue.corr_item_state IN (
+&apos;ACTIVE&apos;
+)
+
+)
+AND QDRLot.lot_no IN (
+
+SELECT
+FabLotAttrValue.lot_id
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotAttrValue FabLotAttrValue
+
+INNER JOIN /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/QDR/QDRLot QDRLot
+ON QDRLot.lot_no = FabLotAttrValue.lot_id
+
+WHERE FabLotAttrValue.corr_item_desc IN (
+&apos;LOT TYPE&apos;
+)
+AND FabLotAttrValue.corr_item_state IN (
+&apos;PRODUCTION&apos;
+)
+
+)
+
+GROUP BY
+QDRLot.lot_no
+
+) qdr_stats_filtered
+ON qdr_stats.lot_id = RTRIM(ship_lot_history.lot_id)
+AND TRAV_LIFE_CYCLE_CODE.attribute_value = &apos;CURRENT&apos;
+
+-- DIE
+-- wafer attribute (die count): WLA C1PLUS GOOD DIE QTY
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(WaferAttr.lot_id) AS lot_id,
+RTRIM(WaferAttr.corr_item_desc) AS wla_c1plus_good_die_qty_desc,
+SUM(WaferAttr.wafer_attr_value) AS wla_c1plus_good_die_qty_value
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/WaferAttr WaferAttr
+
+WHERE WaferAttr.corr_item_desc IN (
+&apos;WLA C1PLUS GOOD DIE QTY&apos;
+)
+
+GROUP BY WaferAttr.lot_id,
+WaferAttr.corr_item_desc
+
+) wla_c1plus_good_die_qty
+ON wla_c1plus_good_die_qty.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- spectek fifth pass
+LEFT OUTER JOIN(
+
+SELECT
+RTRIM(PAAttrHistory.PA_ID) AS lot_id,
+ISNULL(PAAttrHistory.attr_value, 0, CAST(PAAttrHistory.attr_value AS INT)) AS spectek_fifth_pass
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbProductDSS/PAAttrHistory PAAttrHistory
+
+WHERE PAAttrHistory.attr_def_ID IN (
+&apos;SPECTEK FIFTH PASS&apos;
+)
+AND LENGTH(PAAttrHistory.PA_ID) = 11
+
+) spectek_fifth_pass
+ON spectek_fifth_pass.lot_id = RTRIM(ship_lot_history.lot_id)
+
+-- fd (die count)
+LEFT OUTER JOIN (
+
+SELECT
+RTRIM(ProbeWaferSummary.lot_id) AS lot_id,
+SUM(ProbeWaferSummary.UPASS_qty) AS fd
+
+FROM /shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/PrbSumIndexDSS/ProbeWaferSummary ProbeWaferSummary
+
+WHERE ProbeWaferSummary.probe_process_id IN (
+&apos;FQQP&apos;
+)
+AND ProbeWaferSummary.probe_wafer_version_no = 0
+
+GROUP BY ProbeWaferSummary.lot_id
+
+) fd
+ON fd.lot_id = RTRIM(ship_lot_history.lot_id)</attribute>
+  <attribute name="creationDate" type="LONG">1613081993960</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">300361</attribute>
+  <attribute name="creatorUserName" type="STRING">jhanson</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">&apos;CurrentUserName&apos; is not a recognized function.  On line 62, column 50.  [parser-2909505]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1617238370184</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">300361</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">mctads_read</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1613081993960</attribute>
+</metadata>

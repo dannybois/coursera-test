@@ -1,0 +1,304 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="corr_item" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/corr_item" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="corr_item_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_desc" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_datatype" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="datatype_field_desc" nullable="true">
+      <datatype type="STRING" minLength="2" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="revision_emp_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="revision_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="specs" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_default_value" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="oos_action" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="value_cnt" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="min_value_cnt" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="nickname_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="auto_nickname_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="datatype_field_length" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="datatype_field_precision" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="calc_id" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="collection_type" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="send_to_spc" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="purpose" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="standard_corr_item_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_state" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_site" nullable="true">
+      <datatype type="STRING" maxLength="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="corr_item_replication_dest" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/FabTracking/reference/dbo/corr_item" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="corr_item_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="corr_item_no" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_desc" nullable="false">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_datatype" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_desc" nullable="false">
+        <datatype type="STRING" minLength="2" maxLength="2"/>
+      </element>
+      <element name="revision_emp_no" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="revision_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="specs">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="corr_item_default_value">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="oos_action">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="value_cnt" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="min_value_cnt">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="nickname_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="auto_nickname_id">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="datatype_field_length">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="datatype_field_precision">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="corr_item_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="calc_id">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="collection_type">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="send_to_spc">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="purpose">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="standard_corr_item_no">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="corr_item_state" nullable="false">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="corr_item_site" nullable="false">
+        <datatype type="STRING" maxLength="2"/>
+      </element>
+      <element name="corr_item_replication_dest">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;corr_item.corr_item_OID corr_item_OID,
+&#x9;corr_item.corr_item_no corr_item_no,
+&#x9;corr_item.corr_item_desc corr_item_desc,
+&#x9;corr_item.corr_item_datatype corr_item_datatype,
+&#x9;corr_item.datatype_field_desc datatype_field_desc,
+&#x9;corr_item.revision_emp_no revision_emp_no,
+&#x9;corr_item.revision_datetime revision_datetime,
+&#x9;corr_item.specs specs,
+&#x9;corr_item.corr_item_default_value corr_item_default_value,
+&#x9;corr_item.oos_action oos_action,
+&#x9;corr_item.value_cnt value_cnt,
+&#x9;corr_item.min_value_cnt min_value_cnt,
+&#x9;corr_item.nickname_id nickname_id,
+&#x9;corr_item.auto_nickname_id auto_nickname_id,
+&#x9;corr_item.datatype_field_length datatype_field_length,
+&#x9;corr_item.datatype_field_precision datatype_field_precision,
+&#x9;corr_item.corr_item_type corr_item_type,
+&#x9;corr_item.calc_id calc_id,
+&#x9;corr_item.collection_type collection_type,
+&#x9;corr_item.send_to_spc send_to_spc,
+&#x9;corr_item.purpose purpose,
+&#x9;corr_item.standard_corr_item_no standard_corr_item_no,
+&#x9;corr_item.corr_item_state corr_item_state,
+&#x9;corr_item.corr_item_site corr_item_site,
+&#x9;corr_item.corr_item_replication_dest corr_item_replication_dest 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/FabTracking/reference/dbo/corr_item corr_item</attribute>
+  <attribute name="creationDate" type="LONG">1611039055131</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1611039055131</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611039055131</attribute>
+</metadata>

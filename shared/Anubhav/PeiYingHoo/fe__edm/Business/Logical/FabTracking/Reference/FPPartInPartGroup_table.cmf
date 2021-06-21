@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="FPPartInPartGroup" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/FPPartInPartGroup" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="part_code" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="trav_name" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="trav_status" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="part_group_name" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_facility_ID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wafer_desc" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="mfg_facility_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="mfg_facility_ID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_state">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_function">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_no">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_part_group" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_group_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="trav_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="part_group_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="mfg_facility_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="wafer_desc">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_part_in_part_group" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="part_code">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="part_group_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_trav" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="trav_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="trav_name">
+        <datatype type="STRING" minLength="50" maxLength="50"/>
+      </element>
+      <element name="trav_status">
+        <datatype type="STRING" minLength="10" maxLength="10"/>
+      </element>
+      <element name="MTTS_minute_value">
+        <datatype type="FLOAT" minValue="1.1754943508222875E-38" maxValue="3.4028234663852886E38"/>
+      </element>
+      <element name="ship_yld_pct">
+        <datatype type="FLOAT" minValue="1.1754943508222875E-38" maxValue="3.4028234663852886E38"/>
+      </element>
+      <element name="trav_desc">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="CTLY_inc_sw">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="mfg_facility_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="trav_comment">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    FP_part_in_part_group.part_code, 
+    FP_trav.trav_name trav_name, 
+&#x9;FP_trav.trav_status,
+    FP_part_group.part_group_name, 
+    MfgFacility.mfg_facility_ID, 
+    FP_part_group.wafer_desc
+FROM      
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_part_in_part_group FP_part_in_part_group LEFT OUTER JOIN 
+&#x9;&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_part_group FP_part_group
+&#x9;&#x9;&#x9;ON FP_part_in_part_group.part_group_OID = FP_part_group.part_group_OID 
+&#x9;&#x9;LEFT OUTER JOIN   /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/FP_trav FP_trav
+&#x9;&#x9;&#x9;ON FP_part_group.trav_OID = FP_trav.trav_OID
+&#x9;&#x9;LEFT OUTER JOIN   /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility MfgFacility
+&#x9;&#x9;&#x9;ON FP_part_group.mfg_facility_OID = MfgFacility.mfg_facility_OID</attribute>
+  <attribute name="creationDate" type="LONG">1613547274132</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1613631636283</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">phoo</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1613547274132</attribute>
+</metadata>

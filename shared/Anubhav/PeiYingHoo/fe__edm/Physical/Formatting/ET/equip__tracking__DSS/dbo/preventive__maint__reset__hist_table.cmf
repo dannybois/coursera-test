@@ -1,0 +1,216 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="preventive_maint_reset_hist" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ET/equip_tracking_DSS/dbo/preventive_maint_reset_hist" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="equip_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="event_code_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_usage_reset_count" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_reset_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_life_pct" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_due_count" nullable="true">
+      <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_status" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_scheduled_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_last_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_frequency_type" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_frequency_unit" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_reset_value" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_due_value" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_warning_value" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="PM_critical_value" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="record_status" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+    <column name="mod_dt" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+      <annotation>&lt;![CDATA[]]&gt;</annotation>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint_reset_hist" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="equip_OID" nullable="false">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="event_code_id" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_usage_reset_count" nullable="false">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_reset_datetime" nullable="false">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_life_pct">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_due_count">
+        <datatype type="FLOAT" minValue="2.2250738585072014E-308" maxValue="1.7976931348623157E308"/>
+      </element>
+      <element name="PM_status">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_scheduled_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_last_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="PM_frequency_type">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_frequency_unit">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PM_reset_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="PM_due_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="PM_warning_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="PM_critical_value">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="record_status">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+      <element name="mod_dt">
+        <datatype type="DATETIME"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+&#x9;preventive_maint_reset_hist.equip_OID equip_OID,
+&#x9;preventive_maint_reset_hist.event_code_id event_code_id,
+&#x9;preventive_maint_reset_hist.PM_usage_reset_count PM_usage_reset_count,
+&#x9;preventive_maint_reset_hist.PM_reset_datetime PM_reset_datetime,
+&#x9;preventive_maint_reset_hist.PM_life_pct PM_life_pct,
+&#x9;preventive_maint_reset_hist.PM_due_count PM_due_count,
+&#x9;preventive_maint_reset_hist.PM_status PM_status,
+&#x9;preventive_maint_reset_hist.PM_scheduled_datetime PM_scheduled_datetime,
+&#x9;preventive_maint_reset_hist.PM_last_datetime PM_last_datetime,
+&#x9;preventive_maint_reset_hist.PM_frequency_type PM_frequency_type,
+&#x9;preventive_maint_reset_hist.PM_frequency_unit PM_frequency_unit,
+&#x9;preventive_maint_reset_hist.PM_reset_value PM_reset_value,
+&#x9;preventive_maint_reset_hist.PM_due_value PM_due_value,
+&#x9;preventive_maint_reset_hist.PM_warning_value PM_warning_value,
+&#x9;preventive_maint_reset_hist.PM_critical_value PM_critical_value,
+&#x9;preventive_maint_reset_hist.record_status record_status,
+&#x9;preventive_maint_reset_hist.mod_dt mod_dt 
+FROM
+&#x9;/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/ET/equip_tracking_DSS/dbo/preventive_maint_reset_hist preventive_maint_reset_hist</attribute>
+  <attribute name="creationDate" type="LONG">1608002459074</attribute>
+  <attribute name="creatorUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="creatorUserId" type="INTEGER">18069</attribute>
+  <attribute name="creatorUserName" type="STRING">boyin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1615430442602</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">18069</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1608002459074</attribute>
+</metadata>

@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="PAAttrHistory" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/ProbeTracking/PrbProductDss/PAAttrHistory" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="PA_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PA_ID" nullable="true">
+      <datatype type="STRING" minLength="30" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="attr_def_ID" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="attr_value" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="PA_attr_event_OID" nullable="true">
+      <datatype type="STRING" maxLength="8"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="history_insert_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="archive_flag" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_attr_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="attr_def_ID">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="attr_value">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="PA_attr_event_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="history_insert_datetime">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="archive_flag">
+        <datatype type="STRING" minLength="1" maxLength="1"/>
+      </element>
+    </datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_history" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="PA_OID">
+        <datatype type="STRING" maxLength="8"/>
+      </element>
+      <element name="PA_ID">
+        <datatype type="STRING" minLength="30" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT distinct
+&#x9;PA_attr_history.PA_OID,
+    PA_history.PA_ID, 
+    PA_attr_history.attr_def_ID, 
+    PA_attr_history.attr_value, 
+    PA_attr_history.PA_attr_event_OID, 
+    PA_attr_history.history_insert_datetime, 
+    PA_attr_history.archive_flag
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_attr_history PA_attr_history LEFT OUTER JOIN 
+        /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/ProbeTracking/PRBPRODUCTDSS/dbo/PA_history PA_history
+    ON PA_history.PA_OID = PA_attr_history.PA_OID</attribute>
+  <attribute name="creationDate" type="LONG">1611045465866</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1617162278063</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">phoo</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611045465866</attribute>
+</metadata>

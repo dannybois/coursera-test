@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="EPM_auth_data_view" path="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Formatting/FabTracking/reference/dbo/EPM_auth_data_view" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="worker_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="micron_username" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="FQN" nullable="true">
+      <datatype type="STRING" maxLength="1000"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="direct_res" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="indirect_res" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="is_auth" nullable="true">
+      <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="has_auth_desc" nullable="true">
+      <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="type" nullable="true">
+      <datatype type="STRING" minLength="32" maxLength="32"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="root" nullable="true">
+      <datatype type="STRING" minLength="32" maxLength="32"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/FabTracking/reference/dbo/EPM_auth_data_view" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="worker_no" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="micron_username" nullable="false">
+        <datatype type="STRING" minLength="20" maxLength="20"/>
+      </element>
+      <element name="FQN" nullable="false">
+        <datatype type="STRING" maxLength="1000"/>
+      </element>
+      <element name="direct_res" nullable="false">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="indirect_res" nullable="false">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="is_auth" nullable="false">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="has_auth_desc" nullable="false">
+        <datatype type="INTEGER" minValue="0" maxValue="1"/>
+      </element>
+      <element name="type" nullable="false">
+        <datatype type="STRING" minLength="32" maxLength="32"/>
+      </element>
+      <element name="root" nullable="false">
+        <datatype type="STRING" minLength="32" maxLength="32"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    EPM_auth_data_view.worker_no, 
+    EPM_auth_data_view.micron_username, 
+    EPM_auth_data_view.FQN, 
+    --(CONCAT(EPM_auth_data_view.direct_res , EPM_auth_data_view.indirect_res)) as res, 
+&#x9;EPM_auth_data_view.direct_res,
+&#x9;EPM_auth_data_view.indirect_res,
+    EPM_auth_data_view.is_auth, 
+    EPM_auth_data_view.has_auth_desc, 
+    EPM_auth_data_view.&quot;type&quot;, 
+    EPM_auth_data_view.root
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Physical/Metadata/FabTracking/reference/dbo/EPM_auth_data_view EPM_auth_data_view 
+&#x9;&#x9;--where LENGTH(CONCAT(EPM_auth_data_view.direct_res , EPM_auth_data_view.indirect_res)) &gt; 0 and is_auth =1</attribute>
+  <attribute name="creationDate" type="LONG">1611799350661</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1616048464659</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611799350661</attribute>
+</metadata>

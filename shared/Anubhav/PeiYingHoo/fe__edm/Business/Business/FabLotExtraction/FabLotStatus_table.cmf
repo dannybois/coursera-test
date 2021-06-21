@@ -1,0 +1,502 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:7c4e75b7-a989-44b3-bd0e-be89ef89fb8c -->
+<metadata name="FabLotStatus" path="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Business/FabLotExtraction/FabLotStatus" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <columns>
+    <column name="lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CurrentMfgFacilityID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="hold_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="staged_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="trav_step_name" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="trav_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="mfg_part_code" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="OwnedMfgFacilityID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fab_vendor_code" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fab_lot_desig_code" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="fab_proc_code" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_in_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_split_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_merged_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_scrapped_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_bonused_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_reworked_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_current_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="parent_lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="merged_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonused_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="bonused_wafer_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_removed_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="reworked_step_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_level_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="step_hold_time_seconds_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_start_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="state_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_started_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="QDR_documented_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="catalog_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="total_hold_time_seconds_value" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tracked_in_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="tracked_in_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="location_code" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="target_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="target_wafers_out_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="target_done_at_step_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="used_as_target_count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="current_traveler_page" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="SWR_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="QDR_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="baseline_lot_sw" nullable="true">
+      <datatype type="STRING" minLength="1" maxLength="1"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="updated_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="wafer_size" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="full_lot_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scheduling_state_code" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="equip_id" nullable="true">
+      <datatype type="STRING" minLength="50" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="days_to_ship_value" nullable="true">
+      <datatype type="FLOAT" minValue="1.1754943508222875E-38" maxValue="3.4028234663852886E38"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="photo_routing_code" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="lot_priority_status" nullable="true">
+      <datatype type="STRING" minLength="10" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="scheduling_comment" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="rework_QDR_no" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="backup_lot_stack_counter" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="die_shipped_qty" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="location_state" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="design_id" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="step_staged_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="step_committed_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="step_running_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="step_processed_datetime" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="original_lot_id" nullable="true">
+      <datatype type="STRING" minLength="20" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+  </security>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/EPMS/Reference/EPMAuthDataView" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/FabLotExtraction/FabLotStatus" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/Step" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/TravStep" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/Traveler" type="TABLE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <dependency target="/system/customfunctions/CurrentUserName" type="PROCEDURE">
+    <datatype name="Tree" type="TREE" refId="257"></datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">SELECT 
+    FabLotStatus.lot_id, 
+    CurrentMfgFacility.mfg_facility_ID CurrentMfgFacilityID, 
+    FabLotStatus.hold_datetime, 
+    FabLotStatus.staged_datetime, 
+    Step.step_name as trav_step_name,
+&#x9;Traveler.trav_id,
+    FabLotStatus.mfg_part_code, 
+    OwnedMfgFacility.mfg_facility_ID OwnedMfgFacilityID, 
+    FabLotStatus.fab_vendor_code, 
+    FabLotStatus.fab_lot_desig_code, 
+    FabLotStatus.fab_proc_code, 
+    FabLotStatus.lot_in_qty, 
+    FabLotStatus.lot_split_qty, 
+    FabLotStatus.lot_merged_qty, 
+    FabLotStatus.lot_scrapped_qty, 
+    FabLotStatus.lot_bonused_qty, 
+    FabLotStatus.lot_reworked_qty, 
+    FabLotStatus.lot_current_qty, 
+    FabLotStatus.parent_lot_id, 
+    FabLotStatus.merged_lot_sw, 
+    FabLotStatus.bonused_lot_sw, 
+    FabLotStatus.bonused_wafer_sw, 
+    FabLotStatus.lot_removed_qty, 
+    FabLotStatus.reworked_step_sw, 
+    FabLotStatus.rework_level_value, 
+    FabLotStatus.step_hold_time_seconds_value, 
+    FabLotStatus.lot_start_datetime, 
+    FabLotStatus.state_code, 
+    FabLotStatus.lot_started_qty, 
+    FabLotStatus.QDR_documented_qty, 
+    FabLotStatus.catalog_lot_sw, 
+    FabLotStatus.total_hold_time_seconds_value, 
+    FabLotStatus.tracked_in_sw, 
+    FabLotStatus.tracked_in_datetime, 
+    FabLotStatus.location_code, 
+    FabLotStatus.target_lot_sw, 
+    FabLotStatus.target_wafers_out_sw, 
+    FabLotStatus.target_done_at_step_sw, 
+    FabLotStatus.used_as_target_count, 
+    FabLotStatus.current_traveler_page, 
+    FabLotStatus.SWR_lot_sw, 
+    FabLotStatus.QDR_lot_sw, 
+    FabLotStatus.baseline_lot_sw, 
+    FabLotStatus.updated_datetime, 
+    FabLotStatus.wafer_size, 
+    FabLotStatus.full_lot_qty, 
+    FabLotStatus.scheduling_state_code, 
+    FabLotStatus.equip_id, 
+    FabLotStatus.days_to_ship_value, 
+    FabLotStatus.photo_routing_code, 
+    FabLotStatus.lot_priority_status, 
+    FabLotStatus.scheduling_comment, 
+    FabLotStatus.rework_QDR_no, 
+    FabLotStatus.backup_lot_stack_counter, 
+    FabLotStatus.die_shipped_qty, 
+    FabLotStatus.location_state, 
+    FabLotStatus.design_id, 
+    FabLotStatus.step_staged_datetime, 
+    FabLotStatus.step_committed_datetime, 
+    FabLotStatus.step_running_datetime, 
+    FabLotStatus.step_processed_datetime, 
+    FabLotStatus.original_lot_id
+FROM      
+    /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/Step Step INNER JOIN 
+        /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/Traveler Traveler INNER JOIN 
+            /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/TravStep TravStep INNER JOIN 
+                /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility OwnedMfgFacility INNER JOIN 
+                    /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/Reference/MfgFacility CurrentMfgFacility INNER JOIN 
+                        /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/FabTracking/FabLotExtraction/FabLotStatus FabLotStatus 
+                    ON CurrentMfgFacility.mfg_facility_OID = FabLotStatus.current_mfg_facility_OID
+                ON OwnedMfgFacility.mfg_facility_OID = FabLotStatus.owned_mfg_facility_OID
+            ON TravStep.trav_step_OID = FabLotStatus.trav_step_OID
+        ON Traveler.trav_OID = TravStep.trav_OID
+    ON Step.step_OID = TravStep.step_OID
+&#x9;WHERE  FabLotStatus.design_id in (
+&#x9;&#x9;select EPMAuthDataView.res from /shared/Anubhav/PeiYingHoo/fe_edm/Business/Logical/EPMS/Reference/EPMAuthDataView EPMAuthDataView
+    &#x9;&#x9;where EPMAuthDataView.EPM_type = &apos;DesignId&apos; AND 
+        &#x9;&#x9;EPMAuthDataView.micron_username = upper(CurrentUserName()))
+
+--INNER JOIN 
+                            --/shared/fe_edm/Business/Logical/EPMS/Reference/EPMAuthDataView EPMAuthDataView
+                        --ON (EPMAuthDataView.EPM_type = &apos;DesignId&apos; AND 
+                            --EPMAuthDataView.micron_username = upper(CurrentUserName())) AND 
+                            --FabLotStatus.design_id = EPMAuthDataView.res</attribute>
+  <attribute name="creationDate" type="LONG">1611044214638</attribute>
+  <attribute name="creatorUserDomain" type="STRING">composite</attribute>
+  <attribute name="creatorUserId" type="INTEGER">-1973</attribute>
+  <attribute name="creatorUserName" type="STRING">admin</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevel" type="INTEGER">32</attribute>
+  <attribute name="impactMessage" type="STRING">&apos;CurrentUserName&apos; is not a recognized function.  On line 79, column 51.  [parser-2909505]</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1613702765751</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">na.micron.com</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">phoo</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1611044214638</attribute>
+</metadata>
